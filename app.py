@@ -10,6 +10,7 @@ from PIL import Image
 import classifier
 import config
 import engine
+import rag
 import weather
 
 st.set_page_config(page_title="Защита посевов: гибридная СППР", page_icon="🌾", layout="wide")
@@ -171,6 +172,23 @@ def show_explanation(result):
         st.dataframe(memory, hide_index=True, width="stretch")
 
 
+def show_sources(hits):
+    for hit in hits:
+        date = f" · {hit['date']}" if hit["date"] else ""
+        st.markdown(f"**[{hit['title']}]({hit['url'].replace(' ', '%20')})**{date} · близость {hit['score']:.2f}  \n"
+                    f":gray[{hit['text']}]")
+
+
+def show_documents(result, field, kb):
+    # RAG: к решению прикладываем фрагменты официальных документов о найденной болезни
+    disease = result["disease"]
+    if not disease or result["status"] not in ("confirmed", "probable"):
+        return
+    query = f"{disease['name_ru']} {kb['crops'][field['crop']]} меры защиты порог вредоносности"
+    with st.expander("Что пишут официальные источники (поиск по документам)"):
+        show_sources(rag.search(query))
+
+
 def tab_diagnostics(kb, field):
     image = pick_image()
     clicked = st.button("Получить решение", type="primary", disabled=image is None)
@@ -197,6 +215,7 @@ def tab_diagnostics(kb, field):
         show_decision(result, kb)
     show_products(result)
     show_explanation(result)
+    show_documents(result, field, kb)
 
 
 def tab_knowledge(kb):
@@ -225,6 +244,14 @@ def tab_knowledge(kb):
     } for r in kb["rules"]]), hide_index=True, width="stretch")
 
 
+def tab_documents():
+    st.caption(f"{len(list(config.DOCS_DIR.glob('*.txt')))} документов Россельхозцентра и Минсельхозпрода РТ, "
+               f"поиск по смыслу моделью {config.RAG_MODEL_ID}")
+    query = st.text_input("Вопрос", placeholder="например: когда опрыскивать картофель от фитофтороза")
+    if query:
+        show_sources(rag.search(query, k=5))
+
+
 def tab_history():
     if not config.HISTORY_PATH.exists():
         st.info("Журнал пуст: решения появятся после нажатия «Получить решение».")
@@ -238,11 +265,13 @@ kb = engine.load_kb(config.KB_DIR)
 st.title("Защита посевов: гибридная СППР")
 field = sidebar(kb)
 
-diagnostics, knowledge, history = st.tabs(["Диагностика", "База знаний", "Журнал"])
+diagnostics, knowledge, documents, history = st.tabs(["Диагностика", "База знаний", "Документы", "Журнал"])
 with diagnostics:
     tab_diagnostics(kb, field)
 with knowledge:
     tab_knowledge(kb)
+with documents:
+    tab_documents()
 with history:
     tab_history()
 

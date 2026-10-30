@@ -7,3 +7,4 @@ history.csv
 .DS_Store
 data/
 presentation/_render/
+.idea/

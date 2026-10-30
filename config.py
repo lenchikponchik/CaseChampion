@@ -21,12 +21,19 @@ FIELD_DEFAULTS = {
     "wind": 3.0, "days_to_harvest": 40, "last_frac": "нет", "lat": 55.75, "lon": 37.62,
 }
 
+# поиск по документам (RAG): модель эмбеддингов, размер фрагмента, сколько фрагментов показывать
+RAG_MODEL_ID = "cointegrated/rubert-tiny2"
+RAG_CHUNK_CHARS = 700
+RAG_TOP_K = 3
+RAG_WORD_WEIGHT = 0.3  # вес совпадения слов запроса в оценке
+
 # осадки, мм
 RAIN_3D_MM = 1.0
 RAIN_6H_MM = 0.5
 
 BASE_DIR = Path(__file__).parent
 KB_DIR = BASE_DIR / "kb"
+DOCS_DIR = KB_DIR / "docs"
 EXAMPLES_DIR = BASE_DIR / "examples"
 HISTORY_PATH = BASE_DIR / "history.csv"
 DATA_DIR = BASE_DIR / "data"  # тестовые фото, в git не кладём
