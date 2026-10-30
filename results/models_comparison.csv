@@ -1,0 +1,4 @@
+model,test_acc,test_f1,corn_potato_acc,field_acc,not_leaf,ms,caught
+wambugu71/crop_leaf_diseases_vit,0.555,0.5333,0.658,0.248,17/17,14.2,0.5397
+ripro805/krishidrishti-plant-disease,0.51,0.508,0.362,0.168,17/17,343.0,0.6047
+rodynaemad/plant-disease-dinov2-small,0.265,0.2663,0.442,0.024,10/17,34.9,0.6101

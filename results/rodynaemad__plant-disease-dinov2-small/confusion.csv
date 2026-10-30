@@ -1,0 +1,11 @@
+true,corn_common_rust,corn_gray_leaf_spot,corn_healthy,corn_leaf_blight,potato_early_blight,potato_healthy,potato_late_blight,нет в БЗ
+corn_common_rust,12,20,2,6,0,0,0,0
+corn_gray_leaf_spot,2,17,1,19,0,0,0,1
+corn_healthy,0,0,30,10,0,0,0,0
+potato_early_blight,0,0,0,0,15,0,2,23
+potato_healthy,0,0,0,0,0,24,7,9
+potato_late_blight,0,0,0,0,9,0,8,23
+rice_brown_spot,0,8,14,16,0,0,0,2
+rice_healthy,0,0,38,1,0,0,0,1
+rice_leaf_blast,0,14,14,7,0,0,0,5
+wheat_brown_rust,1,16,0,21,0,0,0,2

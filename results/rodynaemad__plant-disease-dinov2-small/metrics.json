@@ -1,0 +1,90 @@
+{
+ "model": "rodynaemad/plant-disease-dinov2-small",
+ "mean_time_s": 0.0349,
+ "field": {
+  "n": 125,
+  "accuracy": 0.024,
+  "macro_f1": 0.0302,
+  "per_class_accuracy": {
+   "corn_healthy": 0.1818,
+   "potato_early_blight": 0.0,
+   "potato_healthy": 0.0,
+   "potato_late_blight": 0.125,
+   "rice_brown_spot": 0.0,
+   "rice_healthy": 0.0,
+   "rice_leaf_blast": 0.0,
+   "wheat_brown_rust": 0.0,
+   "wheat_healthy": 0.0,
+   "wheat_yellow_rust": 0.0
+  },
+  "hybrid": {
+   "n": 125,
+   "nn_wrong_disease": 25,
+   "nn_wrong_disease_share": 0.2,
+   "hybrid_caught": 21,
+   "hybrid_caught_share_of_errors": 0.84,
+   "hybrid_passed": 4,
+   "hybrid_wrong_treatment_share": 0.032,
+   "false_alarms": 2,
+   "false_alarm_share_of_correct": 0.6667
+  }
+ },
+ "leak": {
+  "n": 80,
+  "accuracy": 0.3375,
+  "macro_f1": 0.423,
+  "per_class_accuracy": {
+   "corn_common_rust": 0.125,
+   "corn_gray_leaf_spot": 0.55
+  },
+  "hybrid": {
+   "n": 80,
+   "nn_wrong_disease": 48,
+   "nn_wrong_disease_share": 0.6,
+   "hybrid_caught": 6,
+   "hybrid_caught_share_of_errors": 0.125,
+   "hybrid_passed": 42,
+   "hybrid_wrong_treatment_share": 0.525,
+   "false_alarms": 2,
+   "false_alarm_share_of_correct": 0.0741
+  }
+ },
+ "test": {
+  "n": 400,
+  "accuracy": 0.265,
+  "macro_f1": 0.2663,
+  "per_class_accuracy": {
+   "corn_common_rust": 0.3,
+   "corn_gray_leaf_spot": 0.425,
+   "corn_healthy": 0.75,
+   "potato_early_blight": 0.375,
+   "potato_healthy": 0.6,
+   "potato_late_blight": 0.2,
+   "rice_brown_spot": 0.0,
+   "rice_healthy": 0.0,
+   "rice_leaf_blast": 0.0,
+   "wheat_brown_rust": 0.0
+  },
+  "hybrid": {
+   "n": 400,
+   "nn_wrong_disease": 159,
+   "nn_wrong_disease_share": 0.3975,
+   "hybrid_caught": 97,
+   "hybrid_caught_share_of_errors": 0.6101,
+   "hybrid_passed": 62,
+   "hybrid_wrong_treatment_share": 0.155,
+   "false_alarms": 16,
+   "false_alarm_share_of_correct": 0.1509
+  }
+ },
+ "not_leaf": {
+  "n": 17,
+  "filtered": 10,
+  "by_status": {
+   "conflict": 8,
+   "—": 7,
+   "uncertain": 2
+  },
+  "nn_said_invalid": 0
+ }
+}

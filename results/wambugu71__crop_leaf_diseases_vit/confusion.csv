@@ -1,0 +1,11 @@
+true,corn_common_rust,corn_gray_leaf_spot,corn_healthy,invalid,potato_early_blight,potato_healthy,rice_brown_spot,rice_leaf_blast,wheat_brown_rust,wheat_healthy,wheat_yellow_rust
+corn_common_rust,27,10,0,0,0,0,0,3,0,0,0
+corn_gray_leaf_spot,5,25,1,0,0,0,1,0,0,8,0
+corn_healthy,2,0,37,0,0,0,0,1,0,0,0
+potato_early_blight,3,0,0,7,30,0,0,0,0,0,0
+potato_healthy,0,0,0,1,0,39,0,0,0,0,0
+potato_late_blight,3,0,0,6,23,7,0,0,0,1,0
+rice_brown_spot,0,0,0,0,0,0,15,25,0,0,0
+rice_healthy,0,0,2,3,0,0,10,10,0,13,2
+rice_leaf_blast,0,1,0,1,0,0,11,16,5,1,5
+wheat_brown_rust,5,0,0,0,0,1,0,0,33,0,1

@@ -1,0 +1,88 @@
+{
+ "model": "wambugu71/crop_leaf_diseases_vit",
+ "mean_time_s": 0.0142,
+ "field": {
+  "n": 125,
+  "accuracy": 0.248,
+  "macro_f1": 0.2076,
+  "per_class_accuracy": {
+   "corn_healthy": 0.0,
+   "potato_early_blight": 0.25,
+   "potato_healthy": 0.25,
+   "potato_late_blight": 0.0,
+   "rice_brown_spot": 0.0,
+   "rice_healthy": 0.0,
+   "rice_leaf_blast": 0.6667,
+   "wheat_brown_rust": 0.2,
+   "wheat_healthy": 0.4706,
+   "wheat_yellow_rust": 0.0
+  },
+  "hybrid": {
+   "n": 125,
+   "nn_wrong_disease": 25,
+   "nn_wrong_disease_share": 0.2,
+   "hybrid_caught": 17,
+   "hybrid_caught_share_of_errors": 0.68,
+   "hybrid_passed": 8,
+   "hybrid_wrong_treatment_share": 0.064,
+   "false_alarms": 10,
+   "false_alarm_share_of_correct": 0.3226
+  }
+ },
+ "leak": {
+  "n": 80,
+  "accuracy": 0.925,
+  "macro_f1": 0.9485,
+  "per_class_accuracy": {
+   "corn_common_rust": 0.95,
+   "corn_gray_leaf_spot": 0.9
+  },
+  "hybrid": {
+   "n": 80,
+   "nn_wrong_disease": 5,
+   "nn_wrong_disease_share": 0.0625,
+   "hybrid_caught": 3,
+   "hybrid_caught_share_of_errors": 0.6,
+   "hybrid_passed": 2,
+   "hybrid_wrong_treatment_share": 0.025,
+   "false_alarms": 2,
+   "false_alarm_share_of_correct": 0.027
+  }
+ },
+ "test": {
+  "n": 400,
+  "accuracy": 0.555,
+  "macro_f1": 0.5333,
+  "per_class_accuracy": {
+   "corn_common_rust": 0.675,
+   "corn_gray_leaf_spot": 0.625,
+   "corn_healthy": 0.925,
+   "potato_early_blight": 0.75,
+   "potato_healthy": 0.975,
+   "potato_late_blight": 0.0,
+   "rice_brown_spot": 0.375,
+   "rice_healthy": 0.0,
+   "rice_leaf_blast": 0.4,
+   "wheat_brown_rust": 0.825
+  },
+  "hybrid": {
+   "n": 400,
+   "nn_wrong_disease": 126,
+   "nn_wrong_disease_share": 0.315,
+   "hybrid_caught": 68,
+   "hybrid_caught_share_of_errors": 0.5397,
+   "hybrid_passed": 58,
+   "hybrid_wrong_treatment_share": 0.145,
+   "false_alarms": 24,
+   "false_alarm_share_of_correct": 0.1081
+  }
+ },
+ "not_leaf": {
+  "n": 17,
+  "filtered": 17,
+  "by_status": {
+   "invalid": 17
+  },
+  "nn_said_invalid": 17
+ }
+}

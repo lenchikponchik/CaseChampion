@@ -1,0 +1,6 @@
+streamlit>=1.50
+torch>=2.2
+transformers>=4.40
+pillow>=10.0
+pandas>=2.0
+requests>=2.31

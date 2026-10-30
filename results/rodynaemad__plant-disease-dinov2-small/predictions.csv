@@ -1,0 +1,623 @@
+set,path,true,pred,pred_label,prob,time_s,status,action
+test,test/Corn___Common_Rust/corn_leaf_disease_classification_304.jpg,corn_common_rust,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.7168,0.13,probable,monitor_3d
+test,test/Corn___Common_Rust/corn_leaf_disease_classification_305.jpg,corn_common_rust,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.6458,0.0252,probable,monitor_3d
+test,test/Corn___Common_Rust/corn_leaf_disease_classification_306.jpg,corn_common_rust,corn_healthy,Corn_(maize)___healthy,0.6731,0.0272,healthy,none
+test,test/Corn___Common_Rust/corn_leaf_disease_classification_307.jpg,corn_common_rust,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.4384,0.0289,uncertain,recheck
+test,test/Corn___Common_Rust/corn_leaf_disease_classification_308.jpg,corn_common_rust,corn_common_rust,Corn_(maize)___Common_rust_,0.8189,0.0279,probable,treat
+test,test/Corn___Common_Rust/corn_leaf_disease_classification_309.jpg,corn_common_rust,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.8843,0.029,confirmed,monitor_3d
+test,test/Corn___Common_Rust/corn_leaf_disease_classification_311.jpg,corn_common_rust,corn_healthy,Corn_(maize)___healthy,0.697,0.0244,healthy,none
+test,test/Corn___Common_Rust/corn_leaf_disease_classification_312.jpg,corn_common_rust,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.9942,0.0254,confirmed,monitor_3d
+test,test/Corn___Common_Rust/corn_leaf_disease_classification_315.jpg,corn_common_rust,corn_common_rust,Corn_(maize)___Common_rust_,0.6314,0.0248,probable,treat
+test,test/Corn___Common_Rust/corn_leaf_disease_classification_317.jpg,corn_common_rust,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.6443,0.0267,probable,treat
+test,test/Corn___Common_Rust/corn_leaf_disease_classification_318.jpg,corn_common_rust,corn_common_rust,Corn_(maize)___Common_rust_,0.4772,0.0264,uncertain,recheck
+test,test/Corn___Common_Rust/corn_leaf_disease_classification_319.jpg,corn_common_rust,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.8664,0.0254,confirmed,monitor_3d
+test,test/Corn___Common_Rust/corn_leaf_disease_classification_327.jpg,corn_common_rust,corn_common_rust,Corn_(maize)___Common_rust_,0.5627,0.0254,uncertain,recheck
+test,test/Corn___Common_Rust/corn_leaf_disease_classification_328.jpg,corn_common_rust,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.6342,0.0248,probable,monitor_3d
+test,test/Corn___Common_Rust/corn_leaf_disease_classification_330.jpg,corn_common_rust,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.7706,0.0249,probable,monitor_3d
+test,test/Corn___Common_Rust/corn_leaf_disease_classification_335.jpg,corn_common_rust,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.3963,0.0249,uncertain,recheck
+test,test/Corn___Common_Rust/corn_leaf_disease_classification_337.jpg,corn_common_rust,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.9752,0.0247,confirmed,monitor_3d
+test,test/Corn___Common_Rust/corn_leaf_disease_classification_339.jpg,corn_common_rust,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.8822,0.0254,confirmed,monitor_3d
+test,test/Corn___Common_Rust/corn_leaf_disease_classification_341.jpg,corn_common_rust,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.9109,0.025,confirmed,monitor_3d
+test,test/Corn___Common_Rust/corn_leaf_disease_classification_343.jpg,corn_common_rust,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.8088,0.0265,probable,monitor_3d
+test,test/Corn___Common_Rust/corn_leaf_disease_classification_346.jpg,corn_common_rust,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.9386,0.0249,confirmed,monitor_3d
+test,test/Corn___Common_Rust/corn_leaf_disease_classification_350.jpg,corn_common_rust,corn_common_rust,Corn_(maize)___Common_rust_,0.6082,0.026,probable,treat
+test,test/Corn___Common_Rust/corn_leaf_disease_classification_352.jpg,corn_common_rust,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.8989,0.0249,confirmed,monitor_3d
+test,test/Corn___Common_Rust/corn_leaf_disease_classification_353.jpg,corn_common_rust,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.5013,0.025,uncertain,recheck
+test,test/Corn___Common_Rust/corn_leaf_disease_classification_354.jpg,corn_common_rust,corn_common_rust,Corn_(maize)___Common_rust_,0.5494,0.0246,uncertain,recheck
+test,test/Corn___Common_Rust/corn_leaf_disease_classification_355.jpg,corn_common_rust,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.4225,0.025,uncertain,recheck
+test,test/Corn___Common_Rust/corn_leaf_disease_classification_364.jpg,corn_common_rust,corn_common_rust,Corn_(maize)___Common_rust_,0.3874,0.025,uncertain,recheck
+test,test/Corn___Common_Rust/corn_leaf_disease_classification_368.jpg,corn_common_rust,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.5084,0.0246,uncertain,recheck
+test,test/Corn___Common_Rust/corn_leaf_disease_classification_370.jpg,corn_common_rust,corn_common_rust,Corn_(maize)___Common_rust_,0.4063,0.0258,uncertain,recheck
+test,test/Corn___Common_Rust/corn_leaf_disease_classification_372.jpg,corn_common_rust,corn_common_rust,Corn_(maize)___Common_rust_,0.3901,0.0254,uncertain,recheck
+test,test/Corn___Common_Rust/corn_leaf_disease_classification_374.jpg,corn_common_rust,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.6343,0.0251,probable,monitor_3d
+test,test/Corn___Common_Rust/corn_leaf_disease_classification_375.jpg,corn_common_rust,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.4727,0.0255,uncertain,recheck
+test,test/Corn___Common_Rust/corn_leaf_disease_classification_377.jpg,corn_common_rust,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.5296,0.028,uncertain,recheck
+test,test/Corn___Common_Rust/corn_leaf_disease_classification_383.jpg,corn_common_rust,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.8655,0.0254,confirmed,monitor_3d
+test,test/Corn___Common_Rust/corn_leaf_disease_classification_385.jpg,corn_common_rust,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.7601,0.0252,probable,treat
+test,test/Corn___Common_Rust/corn_leaf_disease_classification_389.jpg,corn_common_rust,corn_common_rust,Corn_(maize)___Common_rust_,0.8849,0.0247,confirmed,treat
+test,test/Corn___Common_Rust/corn_leaf_disease_classification_390.jpg,corn_common_rust,corn_common_rust,Corn_(maize)___Common_rust_,0.9633,0.025,confirmed,treat
+test,test/Corn___Common_Rust/corn_leaf_disease_classification_395.jpg,corn_common_rust,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.945,0.0249,confirmed,monitor_3d
+test,test/Corn___Common_Rust/corn_leaf_disease_classification_396.jpg,corn_common_rust,corn_common_rust,Corn_(maize)___Common_rust_,0.3597,0.0256,uncertain,recheck
+test,test/Corn___Common_Rust/corn_leaf_disease_classification_397.jpg,corn_common_rust,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.9124,0.0243,confirmed,monitor_3d
+test,test/Corn___Gray_Leaf_Spot/maize_foliar_diseases_2937.jpg,corn_gray_leaf_spot,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.9999,0.0254,confirmed,monitor_3d
+test,test/Corn___Gray_Leaf_Spot/maize_foliar_diseases_2959.jpg,corn_gray_leaf_spot,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.9999,0.0277,confirmed,monitor_3d
+test,test/Corn___Gray_Leaf_Spot/maize_foliar_diseases_2986.jpg,corn_gray_leaf_spot,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.6073,0.0272,probable,monitor_3d
+test,test/Corn___Gray_Leaf_Spot/maize_foliar_diseases_3015.jpg,corn_gray_leaf_spot,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.999,0.0254,confirmed,monitor_3d
+test,test/Corn___Gray_Leaf_Spot/maize_foliar_diseases_3026.jpg,corn_gray_leaf_spot,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.9722,0.0257,confirmed,treat
+test,test/Corn___Gray_Leaf_Spot/maize_foliar_diseases_3071.jpg,corn_gray_leaf_spot,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.9787,0.0249,confirmed,treat
+test,test/Corn___Gray_Leaf_Spot/maize_foliar_diseases_3073.jpg,corn_gray_leaf_spot,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.9195,0.0259,confirmed,monitor_3d
+test,test/Corn___Gray_Leaf_Spot/maize_foliar_diseases_3080.jpg,corn_gray_leaf_spot,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.7499,0.0281,probable,monitor_3d
+test,test/Corn___Gray_Leaf_Spot/maize_foliar_diseases_3095.jpg,corn_gray_leaf_spot,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.8312,0.0255,probable,monitor_3d
+test,test/Corn___Gray_Leaf_Spot/maize_foliar_diseases_3117.jpg,corn_gray_leaf_spot,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.9165,0.0253,confirmed,monitor_3d
+test,test/Corn___Gray_Leaf_Spot/maize_foliar_diseases_3129.jpg,corn_gray_leaf_spot,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.93,0.0251,confirmed,treat
+test,test/Corn___Gray_Leaf_Spot/maize_foliar_diseases_3155.jpg,corn_gray_leaf_spot,corn_common_rust,Corn_(maize)___Common_rust_,0.8666,0.0252,confirmed,treat
+test,test/Corn___Gray_Leaf_Spot/maize_foliar_diseases_3177.jpg,corn_gray_leaf_spot,corn_common_rust,Corn_(maize)___Common_rust_,0.7927,0.0256,probable,treat
+test,test/Corn___Gray_Leaf_Spot/maize_foliar_diseases_3290.jpg,corn_gray_leaf_spot,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.5883,0.0253,uncertain,recheck
+test,test/Corn___Gray_Leaf_Spot/maize_foliar_diseases_3292.jpg,corn_gray_leaf_spot,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.9998,0.0253,confirmed,treat
+test,test/Corn___Gray_Leaf_Spot/maize_foliar_diseases_3325.jpg,corn_gray_leaf_spot,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.9862,0.0247,confirmed,treat
+test,test/Corn___Gray_Leaf_Spot/maize_foliar_diseases_3361.jpg,corn_gray_leaf_spot,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.6261,0.0257,probable,treat
+test,test/Corn___Gray_Leaf_Spot/maize_foliar_diseases_3376.jpg,corn_gray_leaf_spot,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.9944,0.0251,confirmed,monitor_3d
+test,test/Corn___Gray_Leaf_Spot/maize_foliar_diseases_3377.jpg,corn_gray_leaf_spot,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.7444,0.0263,probable,monitor_3d
+test,test/Corn___Gray_Leaf_Spot/maize_foliar_diseases_3403.jpg,corn_gray_leaf_spot,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.8605,0.0251,confirmed,treat
+test,test/Corn___Gray_Leaf_Spot/maize_foliar_diseases_3426.jpg,corn_gray_leaf_spot,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.6919,0.0269,probable,monitor_3d
+test,test/Corn___Gray_Leaf_Spot/maize_foliar_diseases_3443.jpg,corn_gray_leaf_spot,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.9179,0.0254,confirmed,monitor_3d
+test,test/Corn___Gray_Leaf_Spot/maize_foliar_diseases_3590.jpg,corn_gray_leaf_spot,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.6823,0.0256,probable,treat
+test,test/Corn___Gray_Leaf_Spot/maize_foliar_diseases_3655.jpg,corn_gray_leaf_spot,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.7715,0.0256,probable,treat
+test,test/Corn___Gray_Leaf_Spot/maize_foliar_diseases_3665.jpg,corn_gray_leaf_spot,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.9992,0.0254,confirmed,treat
+test,test/Corn___Gray_Leaf_Spot/maize_foliar_diseases_3669.jpg,corn_gray_leaf_spot,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.6756,0.0266,probable,treat
+test,test/Corn___Gray_Leaf_Spot/maize_foliar_diseases_3673.jpg,corn_gray_leaf_spot,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.8996,0.026,confirmed,treat
+test,test/Corn___Gray_Leaf_Spot/maize_foliar_diseases_3688.jpg,corn_gray_leaf_spot,corn_healthy,Corn_(maize)___healthy,0.9855,0.0251,healthy,none
+test,test/Corn___Gray_Leaf_Spot/maize_foliar_diseases_3696.jpg,corn_gray_leaf_spot,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.8905,0.0252,confirmed,treat
+test,test/Corn___Gray_Leaf_Spot/maize_foliar_diseases_3717.jpg,corn_gray_leaf_spot,нет в БЗ,Tomato___Late_blight,0.4718,0.025,uncertain,recheck
+test,test/Corn___Gray_Leaf_Spot/maize_foliar_diseases_3721.jpg,corn_gray_leaf_spot,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.9991,0.025,confirmed,monitor_3d
+test,test/Corn___Gray_Leaf_Spot/maize_foliar_diseases_3731.jpg,corn_gray_leaf_spot,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.994,0.0249,confirmed,monitor_3d
+test,test/Corn___Gray_Leaf_Spot/maize_foliar_diseases_3825.jpg,corn_gray_leaf_spot,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.8612,0.0246,confirmed,treat
+test,test/Corn___Gray_Leaf_Spot/maize_foliar_diseases_3837.jpg,corn_gray_leaf_spot,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.9982,0.0247,confirmed,monitor_3d
+test,test/Corn___Gray_Leaf_Spot/maize_foliar_diseases_3868.jpg,corn_gray_leaf_spot,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.5325,0.0248,uncertain,recheck
+test,test/Corn___Gray_Leaf_Spot/maize_foliar_diseases_3890.jpg,corn_gray_leaf_spot,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.9864,0.0251,confirmed,treat
+test,test/Corn___Gray_Leaf_Spot/maize_foliar_diseases_3895.jpg,corn_gray_leaf_spot,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.9954,0.0247,confirmed,monitor_3d
+test,test/Corn___Gray_Leaf_Spot/maize_foliar_diseases_3910.jpg,corn_gray_leaf_spot,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.5263,0.0251,uncertain,recheck
+test,test/Corn___Gray_Leaf_Spot/maize_foliar_diseases_3934.jpg,corn_gray_leaf_spot,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.8931,0.0253,confirmed,treat
+test,test/Corn___Gray_Leaf_Spot/maize_foliar_diseases_3962.jpg,corn_gray_leaf_spot,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.9981,0.0249,confirmed,treat
+test,test/Corn___Healthy/maize_disease_classification_00007_102.jpg,corn_healthy,corn_healthy,Corn_(maize)___healthy,0.8925,0.0467,healthy,none
+test,test/Corn___Healthy/maize_disease_classification_00007_106.jpg,corn_healthy,corn_healthy,Corn_(maize)___healthy,0.9884,0.041,healthy,none
+test,test/Corn___Healthy/maize_disease_classification_00007_134.jpg,corn_healthy,corn_healthy,Corn_(maize)___healthy,0.9184,0.0433,healthy,none
+test,test/Corn___Healthy/maize_disease_classification_00007_135.jpg,corn_healthy,corn_healthy,Corn_(maize)___healthy,0.8568,0.0419,healthy,none
+test,test/Corn___Healthy/maize_disease_classification_00007_137.jpg,corn_healthy,corn_healthy,Corn_(maize)___healthy,0.9965,0.0421,healthy,none
+test,test/Corn___Healthy/maize_disease_classification_00007_161.jpg,corn_healthy,corn_healthy,Corn_(maize)___healthy,0.9863,0.0425,healthy,none
+test,test/Corn___Healthy/maize_disease_classification_00007_209.jpg,corn_healthy,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.8934,0.0428,confirmed,treat
+test,test/Corn___Healthy/maize_disease_classification_00007_218.jpg,corn_healthy,corn_healthy,Corn_(maize)___healthy,0.9981,0.0429,healthy,none
+test,test/Corn___Healthy/maize_disease_classification_00007_244.jpg,corn_healthy,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.7459,0.0435,probable,treat
+test,test/Corn___Healthy/maize_disease_classification_00007_250.jpg,corn_healthy,corn_healthy,Corn_(maize)___healthy,0.9864,0.0353,healthy,none
+test,test/Corn___Healthy/maize_disease_classification_00007_267.jpg,corn_healthy,corn_healthy,Corn_(maize)___healthy,0.5362,0.0435,uncertain,recheck
+test,test/Corn___Healthy/maize_disease_classification_00007_271.jpg,corn_healthy,corn_healthy,Corn_(maize)___healthy,0.9974,0.0431,healthy,none
+test,test/Corn___Healthy/maize_disease_classification_00007_291.jpg,corn_healthy,corn_healthy,Corn_(maize)___healthy,0.9482,0.0431,healthy,none
+test,test/Corn___Healthy/maize_disease_classification_00007_306.jpg,corn_healthy,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.711,0.0432,probable,treat
+test,test/Corn___Healthy/maize_disease_classification_00007_307.jpg,corn_healthy,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.9653,0.0441,confirmed,treat
+test,test/Corn___Healthy/maize_disease_classification_00007_309.jpg,corn_healthy,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.6305,0.0448,probable,treat
+test,test/Corn___Healthy/maize_disease_classification_00007_321.jpg,corn_healthy,corn_healthy,Corn_(maize)___healthy,0.9458,0.0432,healthy,none
+test,test/Corn___Healthy/maize_disease_classification_00007_323.jpg,corn_healthy,corn_healthy,Corn_(maize)___healthy,0.9097,0.0447,healthy,none
+test,test/Corn___Healthy/maize_disease_classification_00007_357.jpg,corn_healthy,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.8546,0.0423,confirmed,treat
+test,test/Corn___Healthy/maize_disease_classification_00007_378.jpg,corn_healthy,corn_healthy,Corn_(maize)___healthy,0.9711,0.0434,healthy,none
+test,test/Corn___Healthy/maize_disease_classification_00007_40.jpg,corn_healthy,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.9119,0.0435,confirmed,treat
+test,test/Corn___Healthy/maize_disease_classification_00007_405.jpg,corn_healthy,corn_healthy,Corn_(maize)___healthy,0.9991,0.0435,healthy,none
+test,test/Corn___Healthy/maize_disease_classification_00007_429.jpg,corn_healthy,corn_healthy,Corn_(maize)___healthy,0.9329,0.0427,healthy,none
+test,test/Corn___Healthy/maize_disease_classification_00007_448.jpg,corn_healthy,corn_healthy,Corn_(maize)___healthy,0.9918,0.0451,healthy,none
+test,test/Corn___Healthy/maize_disease_classification_00007_468.jpg,corn_healthy,corn_healthy,Corn_(maize)___healthy,0.9139,0.0438,healthy,none
+test,test/Corn___Healthy/maize_disease_classification_00007_469.jpg,corn_healthy,corn_healthy,Corn_(maize)___healthy,0.9686,0.0467,healthy,none
+test,test/Corn___Healthy/maize_disease_classification_00007_518.jpg,corn_healthy,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.9812,0.0442,confirmed,treat
+test,test/Corn___Healthy/maize_disease_classification_00007_535.jpg,corn_healthy,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.862,0.0435,confirmed,treat
+test,test/Corn___Healthy/maize_disease_classification_00007_541.jpg,corn_healthy,corn_healthy,Corn_(maize)___healthy,0.8957,0.0449,healthy,none
+test,test/Corn___Healthy/maize_disease_classification_00007_550.jpg,corn_healthy,corn_healthy,Corn_(maize)___healthy,0.9872,0.0444,healthy,none
+test,test/Corn___Healthy/maize_disease_classification_00007_556.jpg,corn_healthy,corn_healthy,Corn_(maize)___healthy,0.9995,0.0441,healthy,none
+test,test/Corn___Healthy/maize_disease_classification_00007_567.jpg,corn_healthy,corn_healthy,Corn_(maize)___healthy,0.9951,0.043,healthy,none
+test,test/Corn___Healthy/maize_disease_classification_00007_576.jpg,corn_healthy,corn_healthy,Corn_(maize)___healthy,0.8724,0.0353,healthy,none
+test,test/Corn___Healthy/maize_disease_classification_00007_578.jpg,corn_healthy,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.8918,0.0426,confirmed,treat
+test,test/Corn___Healthy/maize_disease_classification_00007_70.jpg,corn_healthy,corn_healthy,Corn_(maize)___healthy,0.8037,0.042,healthy,none
+test,test/Corn___Healthy/maize_disease_classification_00007_74.jpg,corn_healthy,corn_healthy,Corn_(maize)___healthy,0.499,0.0418,uncertain,recheck
+test,test/Corn___Healthy/maize_disease_classification_00007_75.jpg,corn_healthy,corn_healthy,Corn_(maize)___healthy,0.7337,0.0426,healthy,none
+test,test/Corn___Healthy/maize_disease_classification_00007_8.jpg,corn_healthy,corn_healthy,Corn_(maize)___healthy,0.9988,0.0417,healthy,none
+test,test/Corn___Healthy/maize_disease_classification_00007_83.jpg,corn_healthy,corn_healthy,Corn_(maize)___healthy,0.9636,0.043,healthy,none
+test,test/Corn___Healthy/maize_disease_classification_00007_9.jpg,corn_healthy,corn_healthy,Corn_(maize)___healthy,0.9998,0.0433,healthy,none
+test,test/Potato___Early_Blight/plant_doc_classification_00001_271.jpg,potato_early_blight,нет в БЗ,Tomato___Late_blight,0.8742,0.0312,,
+test,test/Potato___Early_Blight/plant_doc_classification_00001_274.jpg,potato_early_blight,нет в БЗ,Tomato___Late_blight,0.9877,0.0295,,
+test,test/Potato___Early_Blight/plant_doc_classification_00001_275.jpg,potato_early_blight,potato_early_blight,Potato___Early_blight,0.9189,0.0336,confirmed,treat
+test,test/Potato___Early_Blight/plant_doc_classification_00001_276.jpg,potato_early_blight,нет в БЗ,Tomato___Late_blight,0.9934,0.0256,,
+test,test/Potato___Early_Blight/plant_doc_classification_00001_284.jpg,potato_early_blight,нет в БЗ,Tomato___Late_blight,0.9778,0.0276,,
+test,test/Potato___Early_Blight/plant_doc_classification_00001_285.jpg,potato_early_blight,нет в БЗ,Tomato___Late_blight,0.9755,0.0247,,
+test,test/Potato___Early_Blight/plant_doc_classification_00001_287.jpg,potato_early_blight,potato_early_blight,Potato___Early_blight,0.9352,0.0291,confirmed,treat
+test,test/Potato___Early_Blight/plant_doc_classification_00001_288.jpg,potato_early_blight,potato_early_blight,Potato___Early_blight,0.7375,0.034,probable,treat
+test,test/Potato___Early_Blight/plant_doc_classification_00001_294.jpg,potato_early_blight,нет в БЗ,Tomato___Late_blight,0.6336,0.0255,,
+test,test/Potato___Early_Blight/plant_doc_classification_00001_295.jpg,potato_early_blight,нет в БЗ,Tomato___Late_blight,0.8478,0.078,,
+test,test/Potato___Early_Blight/plant_doc_classification_00001_296.jpg,potato_early_blight,нет в БЗ,Tomato___Late_blight,0.8958,0.0315,,
+test,test/Potato___Early_Blight/plant_doc_classification_00001_298.jpg,potato_early_blight,нет в БЗ,Tomato___Leaf_Mold,0.7085,0.027,,
+test,test/Potato___Early_Blight/plant_doc_classification_00001_300.jpg,potato_early_blight,potato_early_blight,Potato___Early_blight,0.5209,0.0286,uncertain,recheck
+test,test/Potato___Early_Blight/plant_doc_classification_00001_301.jpg,potato_early_blight,нет в БЗ,Tomato___Late_blight,0.657,0.0267,,
+test,test/Potato___Early_Blight/plant_doc_classification_00001_307.jpg,potato_early_blight,нет в БЗ,Tomato___Late_blight,0.9933,0.0259,,
+test,test/Potato___Early_Blight/plant_doc_classification_00001_308.jpg,potato_early_blight,нет в БЗ,Tomato___Early_blight,0.9335,0.0281,,
+test,test/Potato___Early_Blight/plant_doc_classification_00001_315.jpg,potato_early_blight,potato_early_blight,Potato___Early_blight,0.839,0.0259,probable,treat
+test,test/Potato___Early_Blight/plant_doc_classification_00001_317.jpg,potato_early_blight,potato_late_blight,Potato___Late_blight,0.6877,0.0271,probable,treat
+test,test/Potato___Early_Blight/plant_doc_classification_00001_318.jpg,potato_early_blight,potato_early_blight,Potato___Early_blight,0.932,0.0275,confirmed,treat
+test,test/Potato___Early_Blight/plant_doc_classification_00001_325.jpg,potato_early_blight,potato_early_blight,Potato___Early_blight,0.9993,0.099,confirmed,treat
+test,test/Potato___Early_Blight/plant_doc_classification_00001_326.jpg,potato_early_blight,нет в БЗ,Tomato___Early_blight,0.9879,0.0269,,
+test,test/Potato___Early_Blight/plant_doc_classification_00001_330.jpg,potato_early_blight,нет в БЗ,Tomato___Late_blight,0.6565,0.0281,,
+test,test/Potato___Early_Blight/plant_doc_classification_00001_335.jpg,potato_early_blight,potato_early_blight,Potato___Early_blight,0.8146,0.03,probable,treat
+test,test/Potato___Early_Blight/plant_doc_classification_00001_338.jpg,potato_early_blight,potato_early_blight,Potato___Early_blight,0.8898,0.026,confirmed,treat
+test,test/Potato___Early_Blight/plant_doc_classification_00001_339.jpg,potato_early_blight,нет в БЗ,Tomato___Late_blight,0.9832,0.0259,,
+test,test/Potato___Early_Blight/plant_doc_classification_00001_344.jpg,potato_early_blight,нет в БЗ,Tomato___Early_blight,0.8935,0.0274,,
+test,test/Potato___Early_Blight/plant_doc_classification_00001_348.jpg,potato_early_blight,нет в БЗ,Tomato___Late_blight,0.8165,0.0257,,
+test,test/Potato___Early_Blight/plant_doc_classification_00001_349.jpg,potato_early_blight,нет в БЗ,Tomato___Late_blight,0.9556,0.0282,,
+test,test/Potato___Early_Blight/plant_doc_classification_00001_352.jpg,potato_early_blight,нет в БЗ,Tomato___Early_blight,0.6152,0.0478,,
+test,test/Potato___Early_Blight/plant_doc_classification_00001_353.jpg,potato_early_blight,potato_early_blight,Potato___Early_blight,0.7985,0.0413,probable,treat
+test,test/Potato___Early_Blight/plant_doc_classification_00001_354.jpg,potato_early_blight,нет в БЗ,Tomato___Late_blight,0.9768,0.0364,,
+test,test/Potato___Early_Blight/plant_doc_classification_00001_355.jpg,potato_early_blight,potato_early_blight,Potato___Early_blight,0.3415,0.0382,uncertain,recheck
+test,test/Potato___Early_Blight/plant_doc_classification_00001_356.jpg,potato_early_blight,potato_early_blight,Potato___Early_blight,0.4977,0.0291,uncertain,recheck
+test,test/Potato___Early_Blight/plant_doc_classification_00001_357.jpg,potato_early_blight,нет в БЗ,Tomato___Late_blight,0.9979,0.1004,,
+test,test/Potato___Early_Blight/plant_doc_classification_00001_360.jpg,potato_early_blight,potato_late_blight,Potato___Late_blight,0.624,0.026,probable,treat
+test,test/Potato___Early_Blight/plant_doc_classification_00001_367.jpg,potato_early_blight,potato_early_blight,Potato___Early_blight,0.947,0.028,confirmed,treat
+test,test/Potato___Early_Blight/plant_doc_classification_00001_371.jpg,potato_early_blight,нет в БЗ,Tomato___Late_blight,1.0,0.0332,,
+test,test/Potato___Early_Blight/plant_doc_classification_00001_375.jpg,potato_early_blight,нет в БЗ,Strawberry___Leaf_scorch,0.8161,0.0261,,
+test,test/Potato___Early_Blight/plant_doc_classification_00001_379.jpg,potato_early_blight,potato_early_blight,Potato___Early_blight,0.7073,0.0274,probable,treat
+test,test/Potato___Early_Blight/plant_doc_classification_00001_381.jpg,potato_early_blight,potato_early_blight,Potato___Early_blight,0.9915,0.0268,confirmed,treat
+test,test/Potato___Healthy/potato_leaf_disease_classification_00000_611.jpg,potato_healthy,potato_healthy,Potato___healthy,0.939,0.0386,healthy,none
+test,test/Potato___Healthy/potato_leaf_disease_classification_00000_615.jpg,potato_healthy,potato_healthy,Potato___healthy,0.9496,0.0381,healthy,none
+test,test/Potato___Healthy/potato_leaf_disease_classification_00000_625.jpg,potato_healthy,potato_late_blight,Potato___Late_blight,0.6074,0.0381,probable,treat
+test,test/Potato___Healthy/potato_leaf_disease_classification_00000_628.jpg,potato_healthy,нет в БЗ,Tomato___Late_blight,0.5543,0.0383,uncertain,recheck
+test,test/Potato___Healthy/potato_leaf_disease_classification_00000_631.jpg,potato_healthy,potato_healthy,Potato___healthy,0.4881,0.038,uncertain,recheck
+test,test/Potato___Healthy/potato_leaf_disease_classification_00000_632.jpg,potato_healthy,potato_healthy,Potato___healthy,0.9777,0.0493,healthy,none
+test,test/Potato___Healthy/potato_leaf_disease_classification_00000_638.jpg,potato_healthy,potato_late_blight,Potato___Late_blight,0.7827,0.0533,probable,treat
+test,test/Potato___Healthy/potato_leaf_disease_classification_00000_639.jpg,potato_healthy,potato_healthy,Potato___healthy,0.7182,0.0478,healthy,none
+test,test/Potato___Healthy/potato_leaf_disease_classification_00000_643.jpg,potato_healthy,potato_healthy,Potato___healthy,0.785,0.0461,healthy,none
+test,test/Potato___Healthy/potato_leaf_disease_classification_00000_650.jpg,potato_healthy,нет в БЗ,Blueberry___healthy,0.4492,0.048,uncertain,recheck
+test,test/Potato___Healthy/potato_leaf_disease_classification_00000_652.jpg,potato_healthy,нет в БЗ,Tomato___Late_blight,0.9294,0.0468,,
+test,test/Potato___Healthy/potato_leaf_disease_classification_00000_656.jpg,potato_healthy,potato_healthy,Potato___healthy,0.8051,0.0475,healthy,none
+test,test/Potato___Healthy/potato_leaf_disease_classification_00000_661.jpg,potato_healthy,нет в БЗ,"Pepper,_bell___healthy",0.6793,0.0484,,
+test,test/Potato___Healthy/potato_leaf_disease_classification_00000_672.jpg,potato_healthy,potato_healthy,Potato___healthy,0.5688,0.0467,uncertain,recheck
+test,test/Potato___Healthy/potato_leaf_disease_classification_00000_678.jpg,potato_healthy,potato_late_blight,Potato___Late_blight,0.5964,0.0538,uncertain,recheck
+test,test/Potato___Healthy/potato_leaf_disease_classification_00000_687.jpg,potato_healthy,potato_late_blight,Potato___Late_blight,0.8389,0.0471,probable,treat
+test,test/Potato___Healthy/potato_leaf_disease_classification_00000_689.jpg,potato_healthy,нет в БЗ,Tomato___Late_blight,0.9035,0.0487,,
+test,test/Potato___Healthy/potato_leaf_disease_classification_00000_693.jpg,potato_healthy,potato_healthy,Potato___healthy,0.9239,0.0457,healthy,none
+test,test/Potato___Healthy/potato_leaf_disease_classification_00000_703.jpg,potato_healthy,potato_late_blight,Potato___Late_blight,0.5103,0.0498,uncertain,recheck
+test,test/Potato___Healthy/potato_leaf_disease_classification_00000_706.jpg,potato_healthy,potato_healthy,Potato___healthy,0.6582,0.1855,healthy,none
+test,test/Potato___Healthy/potato_leaf_disease_classification_00000_732.jpg,potato_healthy,potato_healthy,Potato___healthy,0.975,0.0544,healthy,none
+test,test/Potato___Healthy/potato_leaf_disease_classification_00000_735.jpg,potato_healthy,potato_healthy,Potato___healthy,0.9607,0.0478,healthy,none
+test,test/Potato___Healthy/potato_leaf_disease_classification_00000_736.jpg,potato_healthy,potato_healthy,Potato___healthy,0.8099,0.0463,healthy,none
+test,test/Potato___Healthy/potato_leaf_disease_classification_00000_739.jpg,potato_healthy,potato_healthy,Potato___healthy,0.955,0.0477,healthy,none
+test,test/Potato___Healthy/potato_leaf_disease_classification_00000_740.jpg,potato_healthy,potato_healthy,Potato___healthy,0.9047,0.0444,healthy,none
+test,test/Potato___Healthy/potato_leaf_disease_classification_00000_746.jpg,potato_healthy,potato_healthy,Potato___healthy,0.941,0.0436,healthy,none
+test,test/Potato___Healthy/potato_leaf_disease_classification_00000_747.jpg,potato_healthy,potato_healthy,Potato___healthy,0.7131,0.0437,healthy,none
+test,test/Potato___Healthy/potato_leaf_disease_classification_00000_749.jpg,potato_healthy,potato_healthy,Potato___healthy,0.875,0.0423,healthy,none
+test,test/Potato___Healthy/potato_leaf_disease_classification_00000_756.jpg,potato_healthy,potato_healthy,Potato___healthy,0.9216,0.0436,healthy,none
+test,test/Potato___Healthy/potato_leaf_disease_classification_00000_764.jpg,potato_healthy,нет в БЗ,Tomato___Late_blight,0.4914,0.0411,uncertain,recheck
+test,test/Potato___Healthy/potato_leaf_disease_classification_00000_766.jpg,potato_healthy,potato_healthy,Potato___healthy,0.875,0.0396,healthy,none
+test,test/Potato___Healthy/potato_leaf_disease_classification_00000_771.jpg,potato_healthy,potato_healthy,Potato___healthy,0.9172,0.0436,healthy,none
+test,test/Potato___Healthy/potato_leaf_disease_classification_00000_774.jpg,potato_healthy,нет в БЗ,"Pepper,_bell___healthy",0.6278,0.0451,,
+test,test/Potato___Healthy/potato_leaf_disease_classification_00000_783.jpg,potato_healthy,нет в БЗ,Tomato___Late_blight,0.8144,0.0394,,
+test,test/Potato___Healthy/potato_leaf_disease_classification_00000_795.jpg,potato_healthy,нет в БЗ,"Pepper,_bell___healthy",0.9015,0.0386,,
+test,test/Potato___Healthy/potato_leaf_disease_classification_00000_800.jpg,potato_healthy,potato_late_blight,Potato___Late_blight,0.324,0.0381,uncertain,recheck
+test,test/Potato___Healthy/potato_leaf_disease_classification_00000_804.jpg,potato_healthy,potato_healthy,Potato___healthy,0.8544,0.0387,healthy,none
+test,test/Potato___Healthy/potato_leaf_disease_classification_00000_806.jpg,potato_healthy,potato_late_blight,Potato___Late_blight,0.9636,0.0383,confirmed,treat
+test,test/Potato___Healthy/potato_leaf_disease_classification_00000_810.jpg,potato_healthy,potato_healthy,Potato___healthy,0.8691,0.0388,healthy,none
+test,test/Potato___Healthy/potato_leaf_disease_classification_00000_811.jpg,potato_healthy,potato_healthy,Potato___healthy,0.8418,0.0386,healthy,none
+test,test/Potato___Late_Blight/plant_doc_classification_00000_112.jpg,potato_late_blight,potato_late_blight,Potato___Late_blight,0.6585,0.0265,probable,treat
+test,test/Potato___Late_Blight/plant_doc_classification_00000_117.jpg,potato_late_blight,potato_early_blight,Potato___Early_blight,0.9623,0.0275,confirmed,treat
+test,test/Potato___Late_Blight/plant_doc_classification_00000_119.jpg,potato_late_blight,potato_late_blight,Potato___Late_blight,0.5695,0.0647,uncertain,recheck
+test,test/Potato___Late_Blight/plant_doc_classification_00000_122.jpg,potato_late_blight,нет в БЗ,Tomato___Late_blight,1.0,0.034,,
+test,test/Potato___Late_Blight/plant_doc_classification_00000_125.jpg,potato_late_blight,нет в БЗ,Tomato___Late_blight,1.0,0.0625,,
+test,test/Potato___Late_Blight/plant_doc_classification_00000_128.jpg,potato_late_blight,нет в БЗ,Tomato___Early_blight,0.9958,0.025,,
+test,test/Potato___Late_Blight/plant_doc_classification_00000_130.jpg,potato_late_blight,нет в БЗ,Tomato___Late_blight,0.9023,0.0271,,
+test,test/Potato___Late_Blight/plant_doc_classification_00000_131.jpg,potato_late_blight,potato_late_blight,Potato___Late_blight,0.9627,0.0282,confirmed,treat
+test,test/Potato___Late_Blight/plant_doc_classification_00000_139.jpg,potato_late_blight,нет в БЗ,Tomato___Late_blight,0.9779,0.0296,,
+test,test/Potato___Late_Blight/plant_doc_classification_00000_143.jpg,potato_late_blight,нет в БЗ,Tomato___Late_blight,0.3883,0.0341,uncertain,recheck
+test,test/Potato___Late_Blight/plant_doc_classification_00000_144.jpg,potato_late_blight,нет в БЗ,Tomato___Late_blight,0.9766,0.0262,,
+test,test/Potato___Late_Blight/plant_doc_classification_00000_145.jpg,potato_late_blight,potato_early_blight,Potato___Early_blight,0.8745,0.0271,confirmed,treat
+test,test/Potato___Late_Blight/plant_doc_classification_00000_148.jpg,potato_late_blight,нет в БЗ,Tomato___Late_blight,1.0,0.0285,,
+test,test/Potato___Late_Blight/plant_doc_classification_00000_154.jpg,potato_late_blight,potato_late_blight,Potato___Late_blight,0.8545,0.0301,confirmed,treat
+test,test/Potato___Late_Blight/plant_doc_classification_00000_157.jpg,potato_late_blight,potato_early_blight,Potato___Early_blight,0.828,0.031,probable,treat
+test,test/Potato___Late_Blight/plant_doc_classification_00000_159.jpg,potato_late_blight,potato_early_blight,Potato___Early_blight,0.9251,0.0312,confirmed,treat
+test,test/Potato___Late_Blight/plant_doc_classification_00000_160.jpg,potato_late_blight,potato_early_blight,Potato___Early_blight,0.9769,0.0409,confirmed,treat
+test,test/Potato___Late_Blight/plant_doc_classification_00000_162.jpg,potato_late_blight,potato_late_blight,Potato___Late_blight,0.7793,0.0475,probable,treat
+test,test/Potato___Late_Blight/plant_doc_classification_00000_165.jpg,potato_late_blight,нет в БЗ,Tomato___Late_blight,0.9981,0.0293,,
+test,test/Potato___Late_Blight/plant_doc_classification_00000_166.jpg,potato_late_blight,нет в БЗ,Tomato___Late_blight,0.7354,0.0888,,
+test,test/Potato___Late_Blight/plant_doc_classification_00000_169.jpg,potato_late_blight,нет в БЗ,Tomato___Late_blight,1.0,0.0275,,
+test,test/Potato___Late_Blight/plant_doc_classification_00000_170.jpg,potato_late_blight,potato_late_blight,Potato___Late_blight,0.8392,0.0272,probable,treat
+test,test/Potato___Late_Blight/plant_doc_classification_00000_174.jpg,potato_late_blight,нет в БЗ,Tomato___Late_blight,0.5068,0.0292,uncertain,recheck
+test,test/Potato___Late_Blight/plant_doc_classification_00000_176.jpg,potato_late_blight,potato_early_blight,Potato___Early_blight,0.723,0.0342,probable,treat
+test,test/Potato___Late_Blight/plant_doc_classification_00000_178.jpg,potato_late_blight,potato_early_blight,Potato___Early_blight,0.5854,0.0271,uncertain,recheck
+test,test/Potato___Late_Blight/plant_doc_classification_00000_179.jpg,potato_late_blight,нет в БЗ,Tomato___Late_blight,0.6134,0.0615,,
+test,test/Potato___Late_Blight/plant_doc_classification_00000_181.jpg,potato_late_blight,potato_late_blight,Potato___Late_blight,0.8304,0.0255,probable,treat
+test,test/Potato___Late_Blight/plant_doc_classification_00000_182.jpg,potato_late_blight,нет в БЗ,Tomato___Late_blight,0.9748,0.0267,,
+test,test/Potato___Late_Blight/plant_doc_classification_00000_184.jpg,potato_late_blight,нет в БЗ,Tomato___Late_blight,0.8251,0.0261,,
+test,test/Potato___Late_Blight/plant_doc_classification_00000_185.jpg,potato_late_blight,нет в БЗ,Tomato___Late_blight,0.3241,0.0258,uncertain,recheck
+test,test/Potato___Late_Blight/plant_doc_classification_00000_187.jpg,potato_late_blight,potato_late_blight,Potato___Late_blight,0.8556,0.0324,confirmed,treat
+test,test/Potato___Late_Blight/plant_doc_classification_00000_191.jpg,potato_late_blight,нет в БЗ,Tomato___Late_blight,0.9956,0.0392,,
+test,test/Potato___Late_Blight/plant_doc_classification_00000_194.jpg,potato_late_blight,нет в БЗ,Tomato___Late_blight,0.9819,0.0263,,
+test,test/Potato___Late_Blight/plant_doc_classification_00000_196.jpg,potato_late_blight,potato_early_blight,Potato___Early_blight,0.7619,0.0267,probable,treat
+test,test/Potato___Late_Blight/plant_doc_classification_00000_199.jpg,potato_late_blight,нет в БЗ,Tomato___Late_blight,0.9768,0.0281,,
+test,test/Potato___Late_Blight/plant_doc_classification_00000_206.jpg,potato_late_blight,нет в БЗ,Tomato___Late_blight,0.9703,0.0301,,
+test,test/Potato___Late_Blight/plant_doc_classification_00000_209.jpg,potato_late_blight,нет в БЗ,Tomato___Late_blight,0.9835,0.0266,,
+test,test/Potato___Late_Blight/plant_doc_classification_00000_210.jpg,potato_late_blight,нет в БЗ,Tomato___Late_blight,0.9496,0.0322,,
+test,test/Potato___Late_Blight/plant_doc_classification_00000_213.jpg,potato_late_blight,potato_early_blight,Potato___Early_blight,0.6874,0.0257,probable,treat
+test,test/Potato___Late_Blight/plant_doc_classification_00000_215.jpg,potato_late_blight,нет в БЗ,Tomato___Late_blight,0.9859,0.114,,
+test,test/Rice___Brown_Spot/rice_leaf_disease_classification_00001_1007.jpg,rice_brown_spot,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.9309,0.0383,conflict,recheck
+test,test/Rice___Brown_Spot/rice_leaf_disease_classification_00001_1033.jpg,rice_brown_spot,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.8728,0.0282,conflict,recheck
+test,test/Rice___Brown_Spot/rice_leaf_disease_classification_00001_1058.jpg,rice_brown_spot,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.6827,0.0279,conflict,recheck
+test,test/Rice___Brown_Spot/rice_leaf_disease_classification_00001_1073.jpg,rice_brown_spot,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.4618,0.0286,conflict,recheck
+test,test/Rice___Brown_Spot/rice_leaf_disease_classification_00001_1087.jpg,rice_brown_spot,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.9402,0.0266,conflict,recheck
+test,test/Rice___Brown_Spot/rice_leaf_disease_classification_00001_1122.jpg,rice_brown_spot,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.4541,0.0367,conflict,recheck
+test,test/Rice___Brown_Spot/rice_leaf_disease_classification_00001_1151.jpg,rice_brown_spot,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.9313,0.0248,conflict,recheck
+test,test/Rice___Brown_Spot/rice_leaf_disease_classification_00001_1154.jpg,rice_brown_spot,нет в БЗ,Strawberry___Leaf_scorch,0.4794,0.0249,uncertain,recheck
+test,test/Rice___Brown_Spot/rice_leaf_disease_classification_00001_1165.jpg,rice_brown_spot,corn_healthy,Corn_(maize)___healthy,0.9348,0.0246,conflict,recheck
+test,test/Rice___Brown_Spot/rice_leaf_disease_classification_00001_1177.jpg,rice_brown_spot,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.8374,0.0247,conflict,recheck
+test,test/Rice___Brown_Spot/rice_leaf_disease_classification_00001_1187.jpg,rice_brown_spot,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.9898,0.0366,conflict,recheck
+test,test/Rice___Brown_Spot/rice_leaf_disease_classification_00001_1192.jpg,rice_brown_spot,corn_healthy,Corn_(maize)___healthy,0.6931,0.0262,conflict,recheck
+test,test/Rice___Brown_Spot/rice_leaf_disease_classification_00001_1209.jpg,rice_brown_spot,corn_healthy,Corn_(maize)___healthy,0.8192,0.0253,conflict,recheck
+test,test/Rice___Brown_Spot/rice_leaf_disease_classification_00001_1215.jpg,rice_brown_spot,нет в БЗ,Peach___Bacterial_spot,0.6041,0.0254,,
+test,test/Rice___Brown_Spot/rice_leaf_disease_classification_00001_1227.jpg,rice_brown_spot,corn_healthy,Corn_(maize)___healthy,0.9147,0.026,conflict,recheck
+test,test/Rice___Brown_Spot/rice_leaf_disease_classification_00001_1246.jpg,rice_brown_spot,corn_healthy,Corn_(maize)___healthy,0.8788,0.0257,conflict,recheck
+test,test/Rice___Brown_Spot/rice_leaf_disease_classification_00001_632.jpg,rice_brown_spot,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.6356,0.0291,conflict,recheck
+test,test/Rice___Brown_Spot/rice_leaf_disease_classification_00001_646.jpg,rice_brown_spot,corn_healthy,Corn_(maize)___healthy,0.5459,0.0294,conflict,recheck
+test,test/Rice___Brown_Spot/rice_leaf_disease_classification_00001_657.jpg,rice_brown_spot,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.4894,0.0291,conflict,recheck
+test,test/Rice___Brown_Spot/rice_leaf_disease_classification_00001_685.jpg,rice_brown_spot,corn_healthy,Corn_(maize)___healthy,0.5756,0.0272,conflict,recheck
+test,test/Rice___Brown_Spot/rice_leaf_disease_classification_00001_690.jpg,rice_brown_spot,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.9969,0.0358,conflict,recheck
+test,test/Rice___Brown_Spot/rice_leaf_disease_classification_00001_694.jpg,rice_brown_spot,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.7854,0.0248,conflict,recheck
+test,test/Rice___Brown_Spot/rice_leaf_disease_classification_00001_697.jpg,rice_brown_spot,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.9099,0.0252,conflict,recheck
+test,test/Rice___Brown_Spot/rice_leaf_disease_classification_00001_748.jpg,rice_brown_spot,corn_healthy,Corn_(maize)___healthy,0.288,0.0389,conflict,recheck
+test,test/Rice___Brown_Spot/rice_leaf_disease_classification_00001_760.jpg,rice_brown_spot,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.9756,0.0263,conflict,recheck
+test,test/Rice___Brown_Spot/rice_leaf_disease_classification_00001_794.jpg,rice_brown_spot,corn_healthy,Corn_(maize)___healthy,0.6908,0.0253,conflict,recheck
+test,test/Rice___Brown_Spot/rice_leaf_disease_classification_00001_830.jpg,rice_brown_spot,corn_healthy,Corn_(maize)___healthy,0.9548,0.0366,conflict,recheck
+test,test/Rice___Brown_Spot/rice_leaf_disease_classification_00001_841.jpg,rice_brown_spot,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.9439,0.0383,conflict,recheck
+test,test/Rice___Brown_Spot/rice_leaf_disease_classification_00001_844.jpg,rice_brown_spot,corn_healthy,Corn_(maize)___healthy,0.7115,0.0257,conflict,recheck
+test,test/Rice___Brown_Spot/rice_leaf_disease_classification_00001_850.jpg,rice_brown_spot,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.5238,0.0254,conflict,recheck
+test,test/Rice___Brown_Spot/rice_leaf_disease_classification_00001_855.jpg,rice_brown_spot,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.9019,0.0262,conflict,recheck
+test,test/Rice___Brown_Spot/rice_leaf_disease_classification_00001_859.jpg,rice_brown_spot,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.8087,0.0266,conflict,recheck
+test,test/Rice___Brown_Spot/rice_leaf_disease_classification_00001_860.jpg,rice_brown_spot,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.3458,0.0254,conflict,recheck
+test,test/Rice___Brown_Spot/rice_leaf_disease_classification_00001_868.jpg,rice_brown_spot,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.7423,0.0376,conflict,recheck
+test,test/Rice___Brown_Spot/rice_leaf_disease_classification_00001_878.jpg,rice_brown_spot,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.9186,0.0266,conflict,recheck
+test,test/Rice___Brown_Spot/rice_leaf_disease_classification_00001_896.jpg,rice_brown_spot,corn_healthy,Corn_(maize)___healthy,0.9059,0.0283,conflict,recheck
+test,test/Rice___Brown_Spot/rice_leaf_disease_classification_00001_910.jpg,rice_brown_spot,corn_healthy,Corn_(maize)___healthy,0.7442,0.0262,conflict,recheck
+test,test/Rice___Brown_Spot/rice_leaf_disease_classification_00001_944.jpg,rice_brown_spot,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.5406,0.0262,conflict,recheck
+test,test/Rice___Brown_Spot/rice_leaf_disease_classification_00001_963.jpg,rice_brown_spot,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.99,0.0363,conflict,recheck
+test,test/Rice___Brown_Spot/rice_leaf_disease_classification_00001_971.jpg,rice_brown_spot,corn_healthy,Corn_(maize)___healthy,0.8334,0.0252,conflict,recheck
+test,test/Rice___Healthy/rice_leaf_disease_classification_00002_10.jpg,rice_healthy,corn_healthy,Corn_(maize)___healthy,0.9992,0.0272,conflict,recheck
+test,test/Rice___Healthy/rice_leaf_disease_classification_00002_106.jpg,rice_healthy,corn_healthy,Corn_(maize)___healthy,0.9998,0.026,conflict,recheck
+test,test/Rice___Healthy/rice_leaf_disease_classification_00002_138.jpg,rice_healthy,corn_healthy,Corn_(maize)___healthy,0.9946,0.0254,conflict,recheck
+test,test/Rice___Healthy/rice_leaf_disease_classification_00002_165.jpg,rice_healthy,corn_healthy,Corn_(maize)___healthy,0.9986,0.0937,conflict,recheck
+test,test/Rice___Healthy/rice_leaf_disease_classification_00002_182.jpg,rice_healthy,corn_healthy,Corn_(maize)___healthy,0.6989,0.0371,conflict,recheck
+test,test/Rice___Healthy/rice_leaf_disease_classification_00002_189.jpg,rice_healthy,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.6108,0.0372,conflict,recheck
+test,test/Rice___Healthy/rice_leaf_disease_classification_00002_191.jpg,rice_healthy,corn_healthy,Corn_(maize)___healthy,0.9973,0.0367,conflict,recheck
+test,test/Rice___Healthy/rice_leaf_disease_classification_00002_213.jpg,rice_healthy,corn_healthy,Corn_(maize)___healthy,0.9952,0.0255,conflict,recheck
+test,test/Rice___Healthy/rice_leaf_disease_classification_00002_237.jpg,rice_healthy,corn_healthy,Corn_(maize)___healthy,0.9979,0.0365,conflict,recheck
+test,test/Rice___Healthy/rice_leaf_disease_classification_00002_243.jpg,rice_healthy,corn_healthy,Corn_(maize)___healthy,0.9318,0.0247,conflict,recheck
+test,test/Rice___Healthy/rice_leaf_disease_classification_00002_249.jpg,rice_healthy,corn_healthy,Corn_(maize)___healthy,0.9661,0.0918,conflict,recheck
+test,test/Rice___Healthy/rice_leaf_disease_classification_00002_250.jpg,rice_healthy,corn_healthy,Corn_(maize)___healthy,1.0,0.0262,conflict,recheck
+test,test/Rice___Healthy/rice_leaf_disease_classification_00002_280.jpg,rice_healthy,corn_healthy,Corn_(maize)___healthy,0.9997,0.0257,conflict,recheck
+test,test/Rice___Healthy/rice_leaf_disease_classification_00002_342.jpg,rice_healthy,corn_healthy,Corn_(maize)___healthy,0.9891,0.0253,conflict,recheck
+test,test/Rice___Healthy/rice_leaf_disease_classification_00002_357.jpg,rice_healthy,corn_healthy,Corn_(maize)___healthy,0.9968,0.0707,conflict,recheck
+test,test/Rice___Healthy/rice_leaf_disease_classification_00002_405.jpg,rice_healthy,corn_healthy,Corn_(maize)___healthy,0.9821,0.0261,conflict,recheck
+test,test/Rice___Healthy/rice_leaf_disease_classification_00002_407.jpg,rice_healthy,corn_healthy,Corn_(maize)___healthy,0.9973,0.0253,conflict,recheck
+test,test/Rice___Healthy/rice_leaf_disease_classification_00002_411.jpg,rice_healthy,corn_healthy,Corn_(maize)___healthy,0.9938,0.0257,conflict,recheck
+test,test/Rice___Healthy/rice_leaf_disease_classification_00002_415.jpg,rice_healthy,corn_healthy,Corn_(maize)___healthy,1.0,0.0254,conflict,recheck
+test,test/Rice___Healthy/rice_leaf_disease_classification_00002_427.jpg,rice_healthy,corn_healthy,Corn_(maize)___healthy,0.9999,0.0357,conflict,recheck
+test,test/Rice___Healthy/rice_leaf_disease_classification_00002_428.jpg,rice_healthy,corn_healthy,Corn_(maize)___healthy,0.9865,0.0252,conflict,recheck
+test,test/Rice___Healthy/rice_leaf_disease_classification_00002_436.jpg,rice_healthy,corn_healthy,Corn_(maize)___healthy,0.9998,0.0253,conflict,recheck
+test,test/Rice___Healthy/rice_leaf_disease_classification_00002_448.jpg,rice_healthy,corn_healthy,Corn_(maize)___healthy,0.997,0.074,conflict,recheck
+test,test/Rice___Healthy/rice_leaf_disease_classification_00002_454.jpg,rice_healthy,corn_healthy,Corn_(maize)___healthy,0.9968,0.0253,conflict,recheck
+test,test/Rice___Healthy/rice_leaf_disease_classification_00002_46.jpg,rice_healthy,corn_healthy,Corn_(maize)___healthy,0.9331,0.0251,conflict,recheck
+test,test/Rice___Healthy/rice_leaf_disease_classification_00002_468.jpg,rice_healthy,corn_healthy,Corn_(maize)___healthy,0.9918,0.0249,conflict,recheck
+test,test/Rice___Healthy/rice_leaf_disease_classification_00002_473.jpg,rice_healthy,corn_healthy,Corn_(maize)___healthy,0.9987,0.0252,conflict,recheck
+test,test/Rice___Healthy/rice_leaf_disease_classification_00002_479.jpg,rice_healthy,corn_healthy,Corn_(maize)___healthy,0.9756,0.0249,conflict,recheck
+test,test/Rice___Healthy/rice_leaf_disease_classification_00002_487.jpg,rice_healthy,corn_healthy,Corn_(maize)___healthy,0.9655,0.0904,conflict,recheck
+test,test/Rice___Healthy/rice_leaf_disease_classification_00002_492.jpg,rice_healthy,corn_healthy,Corn_(maize)___healthy,0.9993,0.0382,conflict,recheck
+test,test/Rice___Healthy/rice_leaf_disease_classification_00002_50.jpg,rice_healthy,corn_healthy,Corn_(maize)___healthy,1.0,0.0356,conflict,recheck
+test,test/Rice___Healthy/rice_leaf_disease_classification_00002_544.jpg,rice_healthy,corn_healthy,Corn_(maize)___healthy,0.9997,0.0251,conflict,recheck
+test,test/Rice___Healthy/rice_leaf_disease_classification_00002_548.jpg,rice_healthy,нет в БЗ,Tomato___Tomato_Yellow_Leaf_Curl_Virus,0.6726,0.0266,,
+test,test/Rice___Healthy/rice_leaf_disease_classification_00002_558.jpg,rice_healthy,corn_healthy,Corn_(maize)___healthy,1.0,0.0296,conflict,recheck
+test,test/Rice___Healthy/rice_leaf_disease_classification_00002_57.jpg,rice_healthy,corn_healthy,Corn_(maize)___healthy,0.9933,0.0708,conflict,recheck
+test,test/Rice___Healthy/rice_leaf_disease_classification_00002_72.jpg,rice_healthy,corn_healthy,Corn_(maize)___healthy,1.0,0.1353,conflict,recheck
+test,test/Rice___Healthy/rice_leaf_disease_classification_00002_90.jpg,rice_healthy,corn_healthy,Corn_(maize)___healthy,0.9826,0.2636,conflict,recheck
+test,test/Rice___Healthy/rice_leaf_disease_classification_00002_91.jpg,rice_healthy,corn_healthy,Corn_(maize)___healthy,1.0,0.0707,conflict,recheck
+test,test/Rice___Healthy/rice_leaf_disease_classification_00002_94.jpg,rice_healthy,corn_healthy,Corn_(maize)___healthy,0.8178,0.0398,conflict,recheck
+test,test/Rice___Healthy/rice_leaf_disease_classification_00002_95.jpg,rice_healthy,corn_healthy,Corn_(maize)___healthy,0.8864,0.0379,conflict,recheck
+test,test/Rice___Leaf_Blast/rice_leaf_disease_classification_00000_122.jpg,rice_leaf_blast,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.995,0.0338,conflict,recheck
+test,test/Rice___Leaf_Blast/rice_leaf_disease_classification_00000_158.jpg,rice_leaf_blast,corn_healthy,Corn_(maize)___healthy,0.8923,0.031,conflict,recheck
+test,test/Rice___Leaf_Blast/rice_leaf_disease_classification_00000_161.jpg,rice_leaf_blast,нет в БЗ,Peach___Bacterial_spot,0.4619,0.0435,uncertain,recheck
+test,test/Rice___Leaf_Blast/rice_leaf_disease_classification_00000_168.jpg,rice_leaf_blast,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.9263,0.0323,conflict,recheck
+test,test/Rice___Leaf_Blast/rice_leaf_disease_classification_00000_190.jpg,rice_leaf_blast,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.5281,0.0336,conflict,recheck
+test,test/Rice___Leaf_Blast/rice_leaf_disease_classification_00000_194.jpg,rice_leaf_blast,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.9982,0.0449,conflict,recheck
+test,test/Rice___Leaf_Blast/rice_leaf_disease_classification_00000_2.jpg,rice_leaf_blast,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.9095,0.0345,conflict,recheck
+test,test/Rice___Leaf_Blast/rice_leaf_disease_classification_00000_222.jpg,rice_leaf_blast,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.8048,0.0338,conflict,recheck
+test,test/Rice___Leaf_Blast/rice_leaf_disease_classification_00000_240.jpg,rice_leaf_blast,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.7046,0.0296,conflict,recheck
+test,test/Rice___Leaf_Blast/rice_leaf_disease_classification_00000_252.jpg,rice_leaf_blast,corn_healthy,Corn_(maize)___healthy,0.4808,0.0335,conflict,recheck
+test,test/Rice___Leaf_Blast/rice_leaf_disease_classification_00000_271.jpg,rice_leaf_blast,нет в БЗ,Tomato___Tomato_Yellow_Leaf_Curl_Virus,0.763,0.0308,,
+test,test/Rice___Leaf_Blast/rice_leaf_disease_classification_00000_292.jpg,rice_leaf_blast,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.776,0.0303,conflict,recheck
+test,test/Rice___Leaf_Blast/rice_leaf_disease_classification_00000_303.jpg,rice_leaf_blast,corn_healthy,Corn_(maize)___healthy,0.9878,0.0401,conflict,recheck
+test,test/Rice___Leaf_Blast/rice_leaf_disease_classification_00000_321.jpg,rice_leaf_blast,corn_healthy,Corn_(maize)___healthy,0.8991,0.0258,conflict,recheck
+test,test/Rice___Leaf_Blast/rice_leaf_disease_classification_00000_388.jpg,rice_leaf_blast,corn_healthy,Corn_(maize)___healthy,0.5985,0.0289,conflict,recheck
+test,test/Rice___Leaf_Blast/rice_leaf_disease_classification_00000_399.jpg,rice_leaf_blast,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.714,0.0298,conflict,recheck
+test,test/Rice___Leaf_Blast/rice_leaf_disease_classification_00000_413.jpg,rice_leaf_blast,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.5788,0.0305,conflict,recheck
+test,test/Rice___Leaf_Blast/rice_leaf_disease_classification_00000_433.jpg,rice_leaf_blast,нет в БЗ,Tomato___Late_blight,0.6228,0.0298,,
+test,test/Rice___Leaf_Blast/rice_leaf_disease_classification_00000_465.jpg,rice_leaf_blast,corn_healthy,Corn_(maize)___healthy,0.4084,0.0296,conflict,recheck
+test,test/Rice___Leaf_Blast/rice_leaf_disease_classification_00000_488.jpg,rice_leaf_blast,corn_healthy,Corn_(maize)___healthy,0.6962,0.0296,conflict,recheck
+test,test/Rice___Leaf_Blast/rice_leaf_disease_classification_00000_498.jpg,rice_leaf_blast,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.4797,0.0302,conflict,recheck
+test,test/Rice___Leaf_Blast/rice_leaf_disease_classification_00000_51.jpg,rice_leaf_blast,corn_healthy,Corn_(maize)___healthy,0.4228,0.0306,conflict,recheck
+test,test/Rice___Leaf_Blast/rice_leaf_disease_classification_00000_514.jpg,rice_leaf_blast,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.4461,0.0276,conflict,recheck
+test,test/Rice___Leaf_Blast/rice_leaf_disease_classification_00000_520.jpg,rice_leaf_blast,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.647,0.028,conflict,recheck
+test,test/Rice___Leaf_Blast/rice_leaf_disease_classification_00000_543.jpg,rice_leaf_blast,corn_healthy,Corn_(maize)___healthy,0.882,0.0278,conflict,recheck
+test,test/Rice___Leaf_Blast/rice_leaf_disease_classification_00000_555.jpg,rice_leaf_blast,corn_healthy,Corn_(maize)___healthy,0.3906,0.0293,conflict,recheck
+test,test/Rice___Leaf_Blast/rice_leaf_disease_classification_00000_569.jpg,rice_leaf_blast,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.9603,0.0261,conflict,recheck
+test,test/Rice___Leaf_Blast/rice_leaf_disease_classification_00000_58.jpg,rice_leaf_blast,corn_healthy,Corn_(maize)___healthy,0.9291,0.0312,conflict,recheck
+test,test/Rice___Leaf_Blast/rice_leaf_disease_classification_00000_583.jpg,rice_leaf_blast,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.9789,0.0292,conflict,recheck
+test,test/Rice___Leaf_Blast/rice_leaf_disease_classification_00000_59.jpg,rice_leaf_blast,нет в БЗ,Tomato___Tomato_Yellow_Leaf_Curl_Virus,0.6446,0.0279,,
+test,test/Rice___Leaf_Blast/rice_leaf_disease_classification_00000_592.jpg,rice_leaf_blast,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.9673,0.0276,conflict,recheck
+test,test/Rice___Leaf_Blast/rice_leaf_disease_classification_00000_593.jpg,rice_leaf_blast,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.9921,0.0276,conflict,recheck
+test,test/Rice___Leaf_Blast/rice_leaf_disease_classification_00000_598.jpg,rice_leaf_blast,нет в БЗ,Tomato___Early_blight,0.5889,0.0264,uncertain,recheck
+test,test/Rice___Leaf_Blast/rice_leaf_disease_classification_00000_60.jpg,rice_leaf_blast,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.4117,0.0268,conflict,recheck
+test,test/Rice___Leaf_Blast/rice_leaf_disease_classification_00000_608.jpg,rice_leaf_blast,corn_healthy,Corn_(maize)___healthy,0.718,0.0274,conflict,recheck
+test,test/Rice___Leaf_Blast/rice_leaf_disease_classification_00000_609.jpg,rice_leaf_blast,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.5616,0.0364,conflict,recheck
+test,test/Rice___Leaf_Blast/rice_leaf_disease_classification_00000_62.jpg,rice_leaf_blast,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.514,0.0278,conflict,recheck
+test,test/Rice___Leaf_Blast/rice_leaf_disease_classification_00000_69.jpg,rice_leaf_blast,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.5699,0.0374,conflict,recheck
+test,test/Rice___Leaf_Blast/rice_leaf_disease_classification_00000_70.jpg,rice_leaf_blast,corn_healthy,Corn_(maize)___healthy,0.79,0.0273,conflict,recheck
+test,test/Rice___Leaf_Blast/rice_leaf_disease_classification_00000_82.jpg,rice_leaf_blast,corn_healthy,Corn_(maize)___healthy,0.9425,0.0279,conflict,recheck
+test,test/Wheat___Brown_Rust/wheat_disease_detection_1105.jpg,wheat_brown_rust,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.87,0.0327,conflict,recheck
+test,test/Wheat___Brown_Rust/wheat_disease_detection_1106.jpg,wheat_brown_rust,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.7595,0.0293,conflict,recheck
+test,test/Wheat___Brown_Rust/wheat_disease_detection_1135.jpg,wheat_brown_rust,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.6128,0.0319,conflict,recheck
+test,test/Wheat___Brown_Rust/wheat_disease_detection_1136.jpg,wheat_brown_rust,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.9953,0.0292,conflict,recheck
+test,test/Wheat___Brown_Rust/wheat_disease_detection_1138.jpg,wheat_brown_rust,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.5312,0.0324,conflict,recheck
+test,test/Wheat___Brown_Rust/wheat_disease_detection_1181.jpg,wheat_brown_rust,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.613,0.0316,conflict,recheck
+test,test/Wheat___Brown_Rust/wheat_disease_detection_1182.jpg,wheat_brown_rust,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.5452,0.0387,conflict,recheck
+test,test/Wheat___Brown_Rust/wheat_disease_detection_1183.jpg,wheat_brown_rust,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.709,0.0344,conflict,recheck
+test,test/Wheat___Brown_Rust/wheat_disease_detection_1184.jpg,wheat_brown_rust,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.8605,0.0296,conflict,recheck
+test,test/Wheat___Brown_Rust/wheat_disease_detection_1185.jpg,wheat_brown_rust,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.657,0.0273,conflict,recheck
+test,test/Wheat___Brown_Rust/wheat_disease_detection_1187.jpg,wheat_brown_rust,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.6195,0.0305,conflict,recheck
+test,test/Wheat___Brown_Rust/wheat_disease_detection_1188.jpg,wheat_brown_rust,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.949,0.0275,conflict,recheck
+test,test/Wheat___Brown_Rust/wheat_disease_detection_1189.jpg,wheat_brown_rust,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.7981,0.0295,conflict,recheck
+test,test/Wheat___Brown_Rust/wheat_disease_detection_122.jpg,wheat_brown_rust,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.9637,0.0252,conflict,recheck
+test,test/Wheat___Brown_Rust/wheat_disease_detection_1245.jpg,wheat_brown_rust,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.9973,0.0268,conflict,recheck
+test,test/Wheat___Brown_Rust/wheat_disease_detection_1246.jpg,wheat_brown_rust,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.9531,0.0291,conflict,recheck
+test,test/Wheat___Brown_Rust/wheat_disease_detection_1247.jpg,wheat_brown_rust,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.8729,0.0281,conflict,recheck
+test,test/Wheat___Brown_Rust/wheat_disease_detection_1248.jpg,wheat_brown_rust,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.904,0.0268,conflict,recheck
+test,test/Wheat___Brown_Rust/wheat_disease_detection_50.jpg,wheat_brown_rust,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.9972,0.0291,conflict,recheck
+test,test/Wheat___Brown_Rust/wheat_disease_detection_51.jpg,wheat_brown_rust,нет в БЗ,Strawberry___Leaf_scorch,0.8408,0.0269,,
+test,test/Wheat___Brown_Rust/wheat_disease_detection_52.jpg,wheat_brown_rust,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.9723,0.0293,conflict,recheck
+test,test/Wheat___Brown_Rust/wheat_disease_detection_53.jpg,wheat_brown_rust,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.9726,0.0302,conflict,recheck
+test,test/Wheat___Brown_Rust/wheat_disease_detection_54.jpg,wheat_brown_rust,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.8726,0.0322,conflict,recheck
+test,test/Wheat___Brown_Rust/wheat_disease_detection_85.jpg,wheat_brown_rust,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.8861,0.0316,conflict,recheck
+test,test/Wheat___Brown_Rust/wheat_disease_detection_86.jpg,wheat_brown_rust,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.9777,0.0304,conflict,recheck
+test,test/Wheat___Brown_Rust/wheat_disease_detection_87.jpg,wheat_brown_rust,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.9834,0.0301,conflict,recheck
+test,test/Wheat___Brown_Rust/wheat_disease_detection_870.jpg,wheat_brown_rust,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.8282,0.0287,conflict,recheck
+test,test/Wheat___Brown_Rust/wheat_disease_detection_871.jpg,wheat_brown_rust,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.6264,0.0289,conflict,recheck
+test,test/Wheat___Brown_Rust/wheat_disease_detection_874.jpg,wheat_brown_rust,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.9466,0.0323,conflict,recheck
+test,test/Wheat___Brown_Rust/wheat_disease_detection_88.jpg,wheat_brown_rust,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.4525,0.0284,conflict,recheck
+test,test/Wheat___Brown_Rust/wheat_disease_detection_89.jpg,wheat_brown_rust,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.9368,0.029,conflict,recheck
+test,test/Wheat___Brown_Rust/wheat_disease_detection_925.jpg,wheat_brown_rust,нет в БЗ,Strawberry___Leaf_scorch,0.4524,0.027,uncertain,recheck
+test,test/Wheat___Brown_Rust/wheat_disease_detection_926.jpg,wheat_brown_rust,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.9829,0.0282,conflict,recheck
+test,test/Wheat___Brown_Rust/wheat_disease_detection_927.jpg,wheat_brown_rust,corn_common_rust,Corn_(maize)___Common_rust_,0.5288,0.0279,conflict,recheck
+test,test/Wheat___Brown_Rust/wheat_disease_detection_929.jpg,wheat_brown_rust,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.8492,0.0309,conflict,recheck
+test,test/Wheat___Brown_Rust/wheat_disease_detection_990.jpg,wheat_brown_rust,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.9944,0.0269,conflict,recheck
+test,test/Wheat___Brown_Rust/wheat_disease_detection_991.jpg,wheat_brown_rust,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.5014,0.0271,conflict,recheck
+test,test/Wheat___Brown_Rust/wheat_disease_detection_992.jpg,wheat_brown_rust,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.8647,0.0275,conflict,recheck
+test,test/Wheat___Brown_Rust/wheat_disease_detection_993.jpg,wheat_brown_rust,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.9956,0.0274,conflict,recheck
+test,test/Wheat___Brown_Rust/wheat_disease_detection_994.jpg,wheat_brown_rust,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.9963,0.0297,conflict,recheck
+field,field/Corn___Healthy/digigreen_00321.jpg,corn_healthy,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.5738,0.0303,uncertain,recheck
+field,field/Corn___Healthy/digigreen_00328.jpg,corn_healthy,corn_common_rust,Corn_(maize)___Common_rust_,0.5662,0.0291,uncertain,recheck
+field,field/Corn___Healthy/digigreen_00516.jpg,corn_healthy,corn_healthy,Corn_(maize)___healthy,0.506,0.0286,uncertain,recheck
+field,field/Corn___Healthy/digigreen_00651.jpg,corn_healthy,corn_healthy,Corn_(maize)___healthy,0.9426,0.0286,healthy,none
+field,field/Corn___Healthy/digigreen_00669.jpg,corn_healthy,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.6094,0.0303,probable,treat
+field,field/Corn___Healthy/digigreen_00685.jpg,corn_healthy,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.822,0.0284,probable,treat
+field,field/Corn___Healthy/digigreen_00699.jpg,corn_healthy,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.9886,0.0291,confirmed,treat
+field,field/Corn___Healthy/digigreen_00756.jpg,corn_healthy,corn_common_rust,Corn_(maize)___Common_rust_,0.5859,0.03,uncertain,recheck
+field,field/Corn___Healthy/digigreen_00799.jpg,corn_healthy,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.536,0.0293,uncertain,recheck
+field,field/Corn___Healthy/digigreen_00800.jpg,corn_healthy,corn_common_rust,Corn_(maize)___Common_rust_,0.4791,0.0303,uncertain,recheck
+field,field/Corn___Healthy/digigreen_00983.jpg,corn_healthy,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.6629,0.0304,probable,treat
+field,field/Potato___Early_Blight/digigreen_00192.jpg,potato_early_blight,нет в БЗ,Tomato___Late_blight,0.9948,0.0289,,
+field,field/Potato___Early_Blight/digigreen_00270.jpg,potato_early_blight,нет в БЗ,Tomato___Late_blight,0.9628,0.0297,,
+field,field/Potato___Early_Blight/digigreen_00402.jpg,potato_early_blight,нет в БЗ,Tomato___Early_blight,0.8436,0.029,,
+field,field/Potato___Early_Blight/digigreen_00489.jpg,potato_early_blight,нет в БЗ,Tomato___Early_blight,0.7097,0.0306,,
+field,field/Potato___Early_Blight/digigreen_00527.jpg,potato_early_blight,нет в БЗ,Tomato___Early_blight,0.4799,0.0315,uncertain,recheck
+field,field/Potato___Early_Blight/digigreen_00562.jpg,potato_early_blight,нет в БЗ,Strawberry___Leaf_scorch,0.6192,0.0301,,
+field,field/Potato___Early_Blight/digigreen_00580.jpg,potato_early_blight,нет в БЗ,Strawberry___Leaf_scorch,0.6103,0.0282,,
+field,field/Potato___Early_Blight/digigreen_00591.jpg,potato_early_blight,нет в БЗ,Tomato___Early_blight,0.862,0.0287,,
+field,field/Potato___Early_Blight/digigreen_00671.jpg,potato_early_blight,нет в БЗ,Tomato___healthy,0.9619,0.03,,
+field,field/Potato___Early_Blight/digigreen_00695.jpg,potato_early_blight,нет в БЗ,Strawberry___Leaf_scorch,0.8863,0.0297,,
+field,field/Potato___Early_Blight/digigreen_00755.jpg,potato_early_blight,нет в БЗ,Tomato___healthy,0.5469,0.0301,uncertain,recheck
+field,field/Potato___Early_Blight/digigreen_00842.jpg,potato_early_blight,нет в БЗ,Tomato___healthy,0.816,0.0328,,
+field,field/Potato___Healthy/digigreen_00021.jpg,potato_healthy,нет в БЗ,Tomato___Late_blight,0.9507,0.0301,,
+field,field/Potato___Healthy/digigreen_00052.jpg,potato_healthy,нет в БЗ,Tomato___healthy,0.4578,0.0302,uncertain,recheck
+field,field/Potato___Healthy/digigreen_00073.jpg,potato_healthy,нет в БЗ,"Pepper,_bell___healthy",0.2714,0.0293,uncertain,recheck
+field,field/Potato___Healthy/digigreen_00095.jpg,potato_healthy,нет в БЗ,Tomato___Early_blight,0.8091,0.0299,,
+field,field/Potato___Healthy/digigreen_00113.jpg,potato_healthy,нет в БЗ,Tomato___Early_blight,0.966,0.0294,,
+field,field/Potato___Healthy/digigreen_00140.jpg,potato_healthy,нет в БЗ,Tomato___healthy,0.9958,0.0291,,
+field,field/Potato___Healthy/digigreen_00142.jpg,potato_healthy,нет в БЗ,"Pepper,_bell___healthy",0.5104,0.0295,uncertain,recheck
+field,field/Potato___Healthy/digigreen_00145.jpg,potato_healthy,нет в БЗ,Tomato___Late_blight,0.3021,0.0301,uncertain,recheck
+field,field/Potato___Healthy/digigreen_00150.jpg,potato_healthy,нет в БЗ,Tomato___healthy,0.8964,0.0293,,
+field,field/Potato___Healthy/digigreen_00187.jpg,potato_healthy,нет в БЗ,Tomato___healthy,0.7172,0.0282,,
+field,field/Potato___Healthy/digigreen_00215.jpg,potato_healthy,нет в БЗ,Tomato___healthy,0.98,0.0299,,
+field,field/Potato___Healthy/digigreen_00276.jpg,potato_healthy,нет в БЗ,Tomato___Late_blight,0.9877,0.0293,,
+field,field/Potato___Healthy/digigreen_00306.jpg,potato_healthy,нет в БЗ,Strawberry___Leaf_scorch,0.7315,0.0377,,
+field,field/Potato___Healthy/digigreen_00319.jpg,potato_healthy,нет в БЗ,Tomato___Early_blight,0.7209,0.0484,,
+field,field/Potato___Healthy/digigreen_00333.jpg,potato_healthy,нет в БЗ,Tomato___healthy,0.8197,0.0371,,
+field,field/Potato___Healthy/digigreen_00381.jpg,potato_healthy,нет в БЗ,Tomato___healthy,0.7098,0.0349,,
+field,field/Potato___Healthy/digigreen_00415.jpg,potato_healthy,нет в БЗ,Tomato___healthy,0.7525,0.0338,,
+field,field/Potato___Healthy/digigreen_00436.jpg,potato_healthy,нет в БЗ,"Pepper,_bell___healthy",0.6948,0.0329,,
+field,field/Potato___Healthy/digigreen_00491.jpg,potato_healthy,нет в БЗ,Tomato___Late_blight,0.8403,0.0362,,
+field,field/Potato___Healthy/digigreen_00563.jpg,potato_healthy,нет в БЗ,Tomato___Late_blight,0.99,0.0353,,
+field,field/Potato___Healthy/digigreen_00610.jpg,potato_healthy,нет в БЗ,Tomato___Late_blight,0.9053,0.0329,,
+field,field/Potato___Healthy/digigreen_00628.jpg,potato_healthy,нет в БЗ,Tomato___Late_blight,0.9952,0.0339,,
+field,field/Potato___Healthy/digigreen_00636.jpg,potato_healthy,нет в БЗ,Tomato___Late_blight,0.9545,0.0329,,
+field,field/Potato___Healthy/digigreen_00707.jpg,potato_healthy,нет в БЗ,"Pepper,_bell___healthy",0.9862,0.0342,,
+field,field/Potato___Healthy/digigreen_00730.jpg,potato_healthy,нет в БЗ,Tomato___Late_blight,0.9992,0.0353,,
+field,field/Potato___Healthy/digigreen_00796.jpg,potato_healthy,нет в БЗ,Tomato___healthy,0.98,0.0348,,
+field,field/Potato___Healthy/digigreen_00816.jpg,potato_healthy,нет в БЗ,Tomato___Late_blight,0.7673,0.0367,,
+field,field/Potato___Healthy/digigreen_00959.jpg,potato_healthy,нет в БЗ,Tomato___Late_blight,0.9995,0.0386,,
+field,field/Potato___Late_Blight/digigreen_00243.jpg,potato_late_blight,potato_late_blight,Potato___Late_blight,0.4828,0.036,uncertain,recheck
+field,field/Potato___Late_Blight/digigreen_00466.jpg,potato_late_blight,нет в БЗ,Tomato___Early_blight,0.8753,0.036,,
+field,field/Potato___Late_Blight/digigreen_00506.jpg,potato_late_blight,нет в БЗ,Tomato___healthy,0.8328,0.0336,,
+field,field/Potato___Late_Blight/digigreen_00566.jpg,potato_late_blight,нет в БЗ,Tomato___Late_blight,0.9704,0.0342,,
+field,field/Potato___Late_Blight/digigreen_00623.jpg,potato_late_blight,нет в БЗ,Tomato___Late_blight,0.9975,0.032,,
+field,field/Potato___Late_Blight/digigreen_00686.jpg,potato_late_blight,нет в БЗ,Tomato___Early_blight,0.5732,0.0326,uncertain,recheck
+field,field/Potato___Late_Blight/digigreen_00734.jpg,potato_late_blight,нет в БЗ,Tomato___Septoria_leaf_spot,0.8767,0.0338,,
+field,field/Potato___Late_Blight/digigreen_00963.jpg,potato_late_blight,нет в БЗ,Tomato___Late_blight,0.391,0.0336,uncertain,recheck
+field,field/Rice___Brown_Spot/digigreen_00548.jpg,rice_brown_spot,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.9854,0.0315,conflict,recheck
+field,field/Rice___Healthy/digigreen_00005.jpg,rice_healthy,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.4633,0.0347,conflict,recheck
+field,field/Rice___Healthy/digigreen_00157.jpg,rice_healthy,corn_healthy,Corn_(maize)___healthy,0.3142,0.0362,conflict,recheck
+field,field/Rice___Healthy/digigreen_00160.jpg,rice_healthy,нет в БЗ,Tomato___Tomato_Yellow_Leaf_Curl_Virus,0.7768,0.0384,,
+field,field/Rice___Healthy/digigreen_00293.jpg,rice_healthy,нет в БЗ,Tomato___Tomato_Yellow_Leaf_Curl_Virus,1.0,0.0418,,
+field,field/Rice___Healthy/digigreen_00324.jpg,rice_healthy,нет в БЗ,Tomato___Tomato_Yellow_Leaf_Curl_Virus,0.9843,0.0394,,
+field,field/Rice___Healthy/digigreen_00355.jpg,rice_healthy,нет в БЗ,Tomato___Late_blight,0.3096,0.0349,uncertain,recheck
+field,field/Rice___Healthy/digigreen_00478.jpg,rice_healthy,corn_healthy,Corn_(maize)___healthy,0.7641,0.0343,conflict,recheck
+field,field/Rice___Healthy/digigreen_00479.jpg,rice_healthy,corn_healthy,Corn_(maize)___healthy,0.4775,0.0364,conflict,recheck
+field,field/Rice___Healthy/digigreen_00577.jpg,rice_healthy,corn_healthy,Corn_(maize)___healthy,0.9689,0.0501,conflict,recheck
+field,field/Rice___Healthy/digigreen_00678.jpg,rice_healthy,corn_healthy,Corn_(maize)___healthy,0.6448,0.0551,conflict,recheck
+field,field/Rice___Healthy/digigreen_00703.jpg,rice_healthy,corn_healthy,Corn_(maize)___healthy,0.8825,0.0335,conflict,recheck
+field,field/Rice___Healthy/digigreen_00752.jpg,rice_healthy,corn_healthy,Corn_(maize)___healthy,0.514,0.0372,conflict,recheck
+field,field/Rice___Healthy/digigreen_00874.jpg,rice_healthy,corn_healthy,Corn_(maize)___healthy,0.8981,0.0347,conflict,recheck
+field,field/Rice___Healthy/digigreen_00913.jpg,rice_healthy,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.8915,0.0448,conflict,recheck
+field,field/Rice___Healthy/digigreen_00925.jpg,rice_healthy,corn_healthy,Corn_(maize)___healthy,0.626,0.052,conflict,recheck
+field,field/Rice___Healthy/digigreen_00948.jpg,rice_healthy,corn_healthy,Corn_(maize)___healthy,0.8199,0.0414,conflict,recheck
+field,field/Rice___Healthy/digigreen_00962.jpg,rice_healthy,нет в БЗ,Cherry_(including_sour)___healthy,0.5225,0.0367,uncertain,recheck
+field,field/Rice___Leaf_Blast/digigreen_00076.jpg,rice_leaf_blast,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.7539,0.034,conflict,recheck
+field,field/Rice___Leaf_Blast/digigreen_00155.jpg,rice_leaf_blast,corn_healthy,Corn_(maize)___healthy,0.4536,0.036,conflict,recheck
+field,field/Rice___Leaf_Blast/digigreen_00181.jpg,rice_leaf_blast,corn_healthy,Corn_(maize)___healthy,0.7933,0.0319,conflict,recheck
+field,field/Rice___Leaf_Blast/digigreen_00190.jpg,rice_leaf_blast,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.7559,0.0331,conflict,recheck
+field,field/Rice___Leaf_Blast/digigreen_00905.jpg,rice_leaf_blast,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.8915,0.0333,conflict,recheck
+field,field/Rice___Leaf_Blast/digigreen_00933.jpg,rice_leaf_blast,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.7539,0.0327,conflict,recheck
+field,field/Wheat___Brown_Rust/commons_Bruine_roest_op_tarwe__Puccinia_recondita_f_sp__tritici.jpg,wheat_brown_rust,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.9976,0.0339,conflict,recheck
+field,field/Wheat___Brown_Rust/commons_Puccinia_triticina__02__jpg.jpg,wheat_brown_rust,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.952,0.0449,conflict,recheck
+field,field/Wheat___Brown_Rust/commons_Puccinia_triticina__03__jpg.jpg,wheat_brown_rust,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.9825,0.0755,conflict,recheck
+field,field/Wheat___Brown_Rust/commons_Wheat_leaf_rust_on_wheat__detail__jpg.jpg,wheat_brown_rust,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.8174,0.04,conflict,recheck
+field,field/Wheat___Brown_Rust/commons_Wheat_leaf_rust_on_wheat_jpg.jpg,wheat_brown_rust,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.9548,0.0351,conflict,recheck
+field,field/Wheat___Healthy/digigreen_00037.jpg,wheat_healthy,нет в БЗ,Tomato___Septoria_leaf_spot,0.9102,0.0304,,
+field,field/Wheat___Healthy/digigreen_00040.jpg,wheat_healthy,corn_healthy,Corn_(maize)___healthy,0.7641,0.0305,conflict,recheck
+field,field/Wheat___Healthy/digigreen_00043.jpg,wheat_healthy,corn_healthy,Corn_(maize)___healthy,0.8835,0.0297,conflict,recheck
+field,field/Wheat___Healthy/digigreen_00072.jpg,wheat_healthy,corn_healthy,Corn_(maize)___healthy,0.995,0.0294,conflict,recheck
+field,field/Wheat___Healthy/digigreen_00074.jpg,wheat_healthy,corn_healthy,Corn_(maize)___healthy,0.9812,0.0318,conflict,recheck
+field,field/Wheat___Healthy/digigreen_00077.jpg,wheat_healthy,corn_healthy,Corn_(maize)___healthy,0.959,0.0298,conflict,recheck
+field,field/Wheat___Healthy/digigreen_00090.jpg,wheat_healthy,corn_healthy,Corn_(maize)___healthy,0.9299,0.0299,conflict,recheck
+field,field/Wheat___Healthy/digigreen_00102.jpg,wheat_healthy,corn_healthy,Corn_(maize)___healthy,0.9577,0.0291,conflict,recheck
+field,field/Wheat___Healthy/digigreen_00110.jpg,wheat_healthy,corn_healthy,Corn_(maize)___healthy,0.9095,0.0301,conflict,recheck
+field,field/Wheat___Healthy/digigreen_00138.jpg,wheat_healthy,corn_healthy,Corn_(maize)___healthy,0.8495,0.0293,conflict,recheck
+field,field/Wheat___Healthy/digigreen_00188.jpg,wheat_healthy,corn_healthy,Corn_(maize)___healthy,0.876,0.0294,conflict,recheck
+field,field/Wheat___Healthy/digigreen_00206.jpg,wheat_healthy,нет в БЗ,Cherry_(including_sour)___healthy,0.5282,0.0294,uncertain,recheck
+field,field/Wheat___Healthy/digigreen_00234.jpg,wheat_healthy,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.8456,0.0279,conflict,recheck
+field,field/Wheat___Healthy/digigreen_00332.jpg,wheat_healthy,corn_healthy,Corn_(maize)___healthy,0.5964,0.0308,conflict,recheck
+field,field/Wheat___Healthy/digigreen_00361.jpg,wheat_healthy,corn_healthy,Corn_(maize)___healthy,0.9903,0.0288,conflict,recheck
+field,field/Wheat___Healthy/digigreen_00385.jpg,wheat_healthy,нет в БЗ,Cherry_(including_sour)___healthy,0.4033,0.0294,uncertain,recheck
+field,field/Wheat___Healthy/digigreen_00391.jpg,wheat_healthy,corn_healthy,Corn_(maize)___healthy,0.8261,0.0279,conflict,recheck
+field,field/Wheat___Healthy/digigreen_00417.jpg,wheat_healthy,corn_healthy,Corn_(maize)___healthy,0.9107,0.032,conflict,recheck
+field,field/Wheat___Healthy/digigreen_00422.jpg,wheat_healthy,corn_healthy,Corn_(maize)___healthy,0.9944,0.0359,conflict,recheck
+field,field/Wheat___Healthy/digigreen_00431.jpg,wheat_healthy,нет в БЗ,Cherry_(including_sour)___healthy,0.8275,0.0295,,
+field,field/Wheat___Healthy/digigreen_00459.jpg,wheat_healthy,corn_healthy,Corn_(maize)___healthy,0.5488,0.029,conflict,recheck
+field,field/Wheat___Healthy/digigreen_00476.jpg,wheat_healthy,corn_healthy,Corn_(maize)___healthy,0.9557,0.0289,conflict,recheck
+field,field/Wheat___Healthy/digigreen_00528.jpg,wheat_healthy,нет в БЗ,Cherry_(including_sour)___healthy,0.5757,0.0292,uncertain,recheck
+field,field/Wheat___Healthy/digigreen_00607.jpg,wheat_healthy,corn_healthy,Corn_(maize)___healthy,0.8048,0.0278,conflict,recheck
+field,field/Wheat___Healthy/digigreen_00706.jpg,wheat_healthy,corn_healthy,Corn_(maize)___healthy,0.6859,0.0286,conflict,recheck
+field,field/Wheat___Healthy/digigreen_00718.jpg,wheat_healthy,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.7061,0.0296,conflict,recheck
+field,field/Wheat___Healthy/digigreen_00739.jpg,wheat_healthy,нет в БЗ,Tomato___Late_blight,0.6393,0.0288,,
+field,field/Wheat___Healthy/digigreen_00753.jpg,wheat_healthy,нет в БЗ,Tomato___Tomato_Yellow_Leaf_Curl_Virus,0.4807,0.0274,uncertain,recheck
+field,field/Wheat___Healthy/digigreen_00809.jpg,wheat_healthy,corn_healthy,Corn_(maize)___healthy,0.9162,0.0351,conflict,recheck
+field,field/Wheat___Healthy/digigreen_00811.jpg,wheat_healthy,corn_healthy,Corn_(maize)___healthy,0.6818,0.0327,conflict,recheck
+field,field/Wheat___Healthy/digigreen_00850.jpg,wheat_healthy,corn_healthy,Corn_(maize)___healthy,0.9793,0.0296,conflict,recheck
+field,field/Wheat___Healthy/digigreen_00889.jpg,wheat_healthy,corn_healthy,Corn_(maize)___healthy,0.9932,0.0282,conflict,recheck
+field,field/Wheat___Healthy/digigreen_00910.jpg,wheat_healthy,нет в БЗ,Tomato___Leaf_Mold,0.8089,0.0293,,
+field,field/Wheat___Healthy/digigreen_00955.jpg,wheat_healthy,corn_healthy,Corn_(maize)___healthy,0.9106,0.0293,conflict,recheck
+field,field/Wheat___Yellow_Rust/commons_Stripe_rust_on_wheat_jpg.jpg,wheat_yellow_rust,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.8852,0.0287,conflict,recheck
+field,field/Wheat___Yellow_Rust/commons_Triticum_dicoccum_Puccinia_striiformis__bruinkafzomerem.jpg,wheat_yellow_rust,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.9986,0.0324,conflict,recheck
+field,field/Wheat___Yellow_Rust/digigreen_00427.jpg,wheat_yellow_rust,corn_healthy,Corn_(maize)___healthy,0.4649,0.0299,conflict,recheck
+not_leaf,not_leaf/commons_random_00.jpg,invalid,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.2342,0.0298,conflict,recheck
+not_leaf,not_leaf/commons_random_01.jpg,invalid,нет в БЗ,Tomato___Late_blight,0.6699,0.0282,,
+not_leaf,not_leaf/commons_random_02.jpg,invalid,нет в БЗ,Peach___Bacterial_spot,0.6783,0.0306,,
+not_leaf,not_leaf/commons_random_03.jpg,invalid,нет в БЗ,Strawberry___Leaf_scorch,0.8543,0.0285,,
+not_leaf,not_leaf/commons_random_04.jpg,invalid,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.6714,0.0302,conflict,recheck
+not_leaf,not_leaf/commons_random_05.jpg,invalid,нет в БЗ,Tomato___Early_blight,0.7298,0.0284,,
+not_leaf,not_leaf/commons_random_06.jpg,invalid,нет в БЗ,Strawberry___Leaf_scorch,0.7293,0.0279,,
+not_leaf,not_leaf/commons_random_07.jpg,invalid,corn_healthy,Corn_(maize)___healthy,0.3301,0.026,conflict,recheck
+not_leaf,not_leaf/commons_random_08.jpg,invalid,нет в БЗ,Tomato___Early_blight,0.5997,0.0277,uncertain,recheck
+not_leaf,not_leaf/commons_random_09.jpg,invalid,нет в БЗ,Tomato___Early_blight,0.7035,0.0316,,
+not_leaf,not_leaf/commons_random_10.jpg,invalid,нет в БЗ,Tomato___Leaf_Mold,0.8586,0.0295,,
+not_leaf,not_leaf/commons_random_11.jpg,invalid,corn_healthy,Corn_(maize)___healthy,0.9847,0.0271,conflict,recheck
+not_leaf,not_leaf/commons_random_12.jpg,invalid,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.8927,0.0321,conflict,recheck
+not_leaf,not_leaf/commons_random_13.jpg,invalid,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.9972,0.0331,conflict,recheck
+not_leaf,not_leaf/commons_random_14.jpg,invalid,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.3828,0.0293,conflict,recheck
+not_leaf,not_leaf/commons_random_15.jpg,invalid,нет в БЗ,Tomato___Early_blight,0.4628,0.0306,uncertain,recheck
+not_leaf,not_leaf/commons_random_16.jpg,invalid,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.4364,0.0316,conflict,recheck
+leak,leak/Corn___Common_Rust/plant_doc_classification_00001_669.jpg,corn_common_rust,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.8883,0.0253,confirmed,treat
+leak,leak/Corn___Common_Rust/plant_doc_classification_00001_672.jpg,corn_common_rust,corn_common_rust,Corn_(maize)___Common_rust_,0.5878,0.0251,uncertain,recheck
+leak,leak/Corn___Common_Rust/plant_doc_classification_00001_673.jpg,corn_common_rust,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.9707,0.0292,confirmed,treat
+leak,leak/Corn___Common_Rust/plant_doc_classification_00001_680.jpg,corn_common_rust,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.9966,0.0328,confirmed,treat
+leak,leak/Corn___Common_Rust/plant_doc_classification_00001_682.jpg,corn_common_rust,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.9731,0.0293,confirmed,monitor_3d
+leak,leak/Corn___Common_Rust/plant_doc_classification_00001_683.jpg,corn_common_rust,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.958,0.0259,confirmed,treat
+leak,leak/Corn___Common_Rust/plant_doc_classification_00001_686.jpg,corn_common_rust,corn_common_rust,Corn_(maize)___Common_rust_,0.6039,0.026,probable,treat
+leak,leak/Corn___Common_Rust/plant_doc_classification_00001_688.jpg,corn_common_rust,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.8537,0.0435,confirmed,treat
+leak,leak/Corn___Common_Rust/plant_doc_classification_00001_689.jpg,corn_common_rust,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.592,0.0317,uncertain,recheck
+leak,leak/Corn___Common_Rust/plant_doc_classification_00001_694.jpg,corn_common_rust,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.9877,0.0264,confirmed,treat
+leak,leak/Corn___Common_Rust/plant_doc_classification_00001_696.jpg,corn_common_rust,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.5044,0.0274,uncertain,recheck
+leak,leak/Corn___Common_Rust/plant_doc_classification_00001_697.jpg,corn_common_rust,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.91,0.0365,confirmed,monitor_3d
+leak,leak/Corn___Common_Rust/plant_doc_classification_00001_698.jpg,corn_common_rust,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.5478,0.0712,uncertain,recheck
+leak,leak/Corn___Common_Rust/plant_doc_classification_00001_700.jpg,corn_common_rust,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.9981,0.0828,confirmed,treat
+leak,leak/Corn___Common_Rust/plant_doc_classification_00001_704.jpg,corn_common_rust,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.9896,0.0328,confirmed,monitor_3d
+leak,leak/Corn___Common_Rust/plant_doc_classification_00001_712.jpg,corn_common_rust,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.9689,0.0543,confirmed,treat
+leak,leak/Corn___Common_Rust/plant_doc_classification_00001_722.jpg,corn_common_rust,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.993,0.0376,confirmed,treat
+leak,leak/Corn___Common_Rust/plant_doc_classification_00001_723.jpg,corn_common_rust,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.8017,0.0289,probable,monitor_3d
+leak,leak/Corn___Common_Rust/plant_doc_classification_00001_726.jpg,corn_common_rust,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.5582,0.0286,uncertain,recheck
+leak,leak/Corn___Common_Rust/plant_doc_classification_00001_733.jpg,corn_common_rust,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.9912,0.0304,confirmed,treat
+leak,leak/Corn___Common_Rust/plant_doc_classification_00001_738.jpg,corn_common_rust,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.9898,0.0532,confirmed,treat
+leak,leak/Corn___Common_Rust/plant_doc_classification_00001_740.jpg,corn_common_rust,corn_common_rust,Corn_(maize)___Common_rust_,0.4056,0.0316,uncertain,recheck
+leak,leak/Corn___Common_Rust/plant_doc_classification_00001_744.jpg,corn_common_rust,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.9521,0.0278,confirmed,treat
+leak,leak/Corn___Common_Rust/plant_doc_classification_00001_746.jpg,corn_common_rust,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.8509,0.0505,confirmed,treat
+leak,leak/Corn___Common_Rust/plant_doc_classification_00001_750.jpg,corn_common_rust,corn_common_rust,Corn_(maize)___Common_rust_,0.9606,0.0269,confirmed,treat
+leak,leak/Corn___Common_Rust/plant_doc_classification_00001_752.jpg,corn_common_rust,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.6515,0.0371,probable,monitor_3d
+leak,leak/Corn___Common_Rust/plant_doc_classification_00001_755.jpg,corn_common_rust,corn_healthy,Corn_(maize)___healthy,0.4493,0.0869,uncertain,recheck
+leak,leak/Corn___Common_Rust/plant_doc_classification_00001_758.jpg,corn_common_rust,corn_healthy,Corn_(maize)___healthy,0.9884,0.0268,healthy,none
+leak,leak/Corn___Common_Rust/plant_doc_classification_00001_763.jpg,corn_common_rust,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.7267,0.0311,probable,treat
+leak,leak/Corn___Common_Rust/plant_doc_classification_00001_765.jpg,corn_common_rust,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.816,0.0298,probable,treat
+leak,leak/Corn___Common_Rust/plant_doc_classification_00001_767.jpg,corn_common_rust,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.587,0.0282,uncertain,recheck
+leak,leak/Corn___Common_Rust/plant_doc_classification_00001_769.jpg,corn_common_rust,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.6264,0.1283,probable,treat
+leak,leak/Corn___Common_Rust/plant_doc_classification_00001_770.jpg,corn_common_rust,corn_common_rust,Corn_(maize)___Common_rust_,0.9446,0.0293,confirmed,treat
+leak,leak/Corn___Common_Rust/plant_doc_classification_00001_771.jpg,corn_common_rust,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.8072,0.0304,probable,treat
+leak,leak/Corn___Common_Rust/plant_doc_classification_00001_772.jpg,corn_common_rust,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.9634,0.0295,confirmed,treat
+leak,leak/Corn___Common_Rust/plant_doc_classification_00001_776.jpg,corn_common_rust,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.9516,0.0401,confirmed,treat
+leak,leak/Corn___Common_Rust/plant_doc_classification_00001_778.jpg,corn_common_rust,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.8633,0.0284,confirmed,treat
+leak,leak/Corn___Common_Rust/plant_doc_classification_00001_780.jpg,corn_common_rust,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.9589,0.0324,confirmed,treat
+leak,leak/Corn___Common_Rust/plant_doc_classification_00001_781.jpg,corn_common_rust,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.9969,0.0283,confirmed,treat
+leak,leak/Corn___Common_Rust/plant_doc_classification_00001_782.jpg,corn_common_rust,corn_healthy,Corn_(maize)___healthy,0.8564,0.0308,healthy,none
+leak,leak/Corn___Gray_Leaf_Spot/plant_doc_classification_00001_603.jpg,corn_gray_leaf_spot,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.996,0.0286,confirmed,treat
+leak,leak/Corn___Gray_Leaf_Spot/plant_doc_classification_00001_605.jpg,corn_gray_leaf_spot,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.9013,0.027,confirmed,monitor_3d
+leak,leak/Corn___Gray_Leaf_Spot/plant_doc_classification_00001_606.jpg,corn_gray_leaf_spot,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.6024,0.0319,probable,monitor_3d
+leak,leak/Corn___Gray_Leaf_Spot/plant_doc_classification_00001_607.jpg,corn_gray_leaf_spot,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.8441,0.0276,probable,monitor_3d
+leak,leak/Corn___Gray_Leaf_Spot/plant_doc_classification_00001_608.jpg,corn_gray_leaf_spot,corn_common_rust,Corn_(maize)___Common_rust_,0.4521,0.0282,uncertain,recheck
+leak,leak/Corn___Gray_Leaf_Spot/plant_doc_classification_00001_611.jpg,corn_gray_leaf_spot,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.7049,0.0302,probable,monitor_3d
+leak,leak/Corn___Gray_Leaf_Spot/plant_doc_classification_00001_612.jpg,corn_gray_leaf_spot,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.9956,0.0287,confirmed,monitor_3d
+leak,leak/Corn___Gray_Leaf_Spot/plant_doc_classification_00001_613.jpg,corn_gray_leaf_spot,corn_healthy,Corn_(maize)___healthy,0.9148,0.0273,healthy,none
+leak,leak/Corn___Gray_Leaf_Spot/plant_doc_classification_00001_614.jpg,corn_gray_leaf_spot,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.9973,0.0286,confirmed,monitor_3d
+leak,leak/Corn___Gray_Leaf_Spot/plant_doc_classification_00001_615.jpg,corn_gray_leaf_spot,corn_healthy,Corn_(maize)___healthy,0.4729,0.0303,uncertain,recheck
+leak,leak/Corn___Gray_Leaf_Spot/plant_doc_classification_00001_617.jpg,corn_gray_leaf_spot,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,1.0,0.0339,confirmed,monitor_3d
+leak,leak/Corn___Gray_Leaf_Spot/plant_doc_classification_00001_618.jpg,corn_gray_leaf_spot,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.9259,0.0394,confirmed,treat
+leak,leak/Corn___Gray_Leaf_Spot/plant_doc_classification_00001_619.jpg,corn_gray_leaf_spot,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.805,0.0787,probable,treat
+leak,leak/Corn___Gray_Leaf_Spot/plant_doc_classification_00001_623.jpg,corn_gray_leaf_spot,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.8955,0.0318,confirmed,treat
+leak,leak/Corn___Gray_Leaf_Spot/plant_doc_classification_00001_624.jpg,corn_gray_leaf_spot,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.9948,0.0316,confirmed,monitor_3d
+leak,leak/Corn___Gray_Leaf_Spot/plant_doc_classification_00001_625.jpg,corn_gray_leaf_spot,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.6008,0.0325,probable,monitor_3d
+leak,leak/Corn___Gray_Leaf_Spot/plant_doc_classification_00001_630.jpg,corn_gray_leaf_spot,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.6229,0.0285,probable,monitor_3d
+leak,leak/Corn___Gray_Leaf_Spot/plant_doc_classification_00001_631.jpg,corn_gray_leaf_spot,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.9985,0.0303,confirmed,monitor_3d
+leak,leak/Corn___Gray_Leaf_Spot/plant_doc_classification_00001_635.jpg,corn_gray_leaf_spot,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,1.0,0.0365,confirmed,treat
+leak,leak/Corn___Gray_Leaf_Spot/plant_doc_classification_00001_636.jpg,corn_gray_leaf_spot,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.9921,0.0322,confirmed,monitor_3d
+leak,leak/Corn___Gray_Leaf_Spot/plant_doc_classification_00001_637.jpg,corn_gray_leaf_spot,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.9949,0.0386,confirmed,treat
+leak,leak/Corn___Gray_Leaf_Spot/plant_doc_classification_00001_639.jpg,corn_gray_leaf_spot,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.9716,0.0269,confirmed,monitor_3d
+leak,leak/Corn___Gray_Leaf_Spot/plant_doc_classification_00001_640.jpg,corn_gray_leaf_spot,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.9986,0.0257,confirmed,treat
+leak,leak/Corn___Gray_Leaf_Spot/plant_doc_classification_00001_641.jpg,corn_gray_leaf_spot,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.9983,0.0264,confirmed,monitor_3d
+leak,leak/Corn___Gray_Leaf_Spot/plant_doc_classification_00001_644.jpg,corn_gray_leaf_spot,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.88,0.0249,confirmed,treat
+leak,leak/Corn___Gray_Leaf_Spot/plant_doc_classification_00001_645.jpg,corn_gray_leaf_spot,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.7635,0.0287,probable,monitor_3d
+leak,leak/Corn___Gray_Leaf_Spot/plant_doc_classification_00001_646.jpg,corn_gray_leaf_spot,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.6931,0.0249,probable,treat
+leak,leak/Corn___Gray_Leaf_Spot/plant_doc_classification_00001_647.jpg,corn_gray_leaf_spot,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.7003,0.0273,probable,monitor_3d
+leak,leak/Corn___Gray_Leaf_Spot/plant_doc_classification_00001_648.jpg,corn_gray_leaf_spot,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.9994,0.041,confirmed,monitor_3d
+leak,leak/Corn___Gray_Leaf_Spot/plant_doc_classification_00001_649.jpg,corn_gray_leaf_spot,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.6798,0.034,probable,treat
+leak,leak/Corn___Gray_Leaf_Spot/plant_doc_classification_00001_651.jpg,corn_gray_leaf_spot,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.9759,0.0326,confirmed,treat
+leak,leak/Corn___Gray_Leaf_Spot/plant_doc_classification_00001_652.jpg,corn_gray_leaf_spot,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.9909,0.0818,confirmed,treat
+leak,leak/Corn___Gray_Leaf_Spot/plant_doc_classification_00001_655.jpg,corn_gray_leaf_spot,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.7751,0.0334,probable,treat
+leak,leak/Corn___Gray_Leaf_Spot/plant_doc_classification_00001_657.jpg,corn_gray_leaf_spot,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.9705,0.0314,confirmed,monitor_3d
+leak,leak/Corn___Gray_Leaf_Spot/plant_doc_classification_00001_658.jpg,corn_gray_leaf_spot,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.9989,0.0305,confirmed,monitor_3d
+leak,leak/Corn___Gray_Leaf_Spot/plant_doc_classification_00001_662.jpg,corn_gray_leaf_spot,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.9859,0.0313,confirmed,monitor_3d
+leak,leak/Corn___Gray_Leaf_Spot/plant_doc_classification_00001_663.jpg,corn_gray_leaf_spot,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.7623,0.0304,probable,treat
+leak,leak/Corn___Gray_Leaf_Spot/plant_doc_classification_00001_664.jpg,corn_gray_leaf_spot,corn_leaf_blight,Corn_(maize)___Northern_Leaf_Blight,0.9769,0.2483,confirmed,treat
+leak,leak/Corn___Gray_Leaf_Spot/plant_doc_classification_00001_665.jpg,corn_gray_leaf_spot,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.9999,0.0274,confirmed,monitor_3d
+leak,leak/Corn___Gray_Leaf_Spot/plant_doc_classification_00001_666.jpg,corn_gray_leaf_spot,corn_gray_leaf_spot,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.913,0.0382,confirmed,monitor_3d

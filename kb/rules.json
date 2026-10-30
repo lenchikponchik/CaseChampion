@@ -1,0 +1,272 @@
+{
+  "action_labels": {
+    "treat": "Провести фунгицидную обработку",
+    "treat_postponed": "Обработка нужна, но отложить до погодного окна",
+    "monitor_3d": "Повторный осмотр через 3 дня",
+    "monitor_7d": "Плановый осмотр через 7 дней",
+    "none": "Обработка не требуется",
+    "recheck": "Нужна проверка: переснимите лист или пригласите агронома",
+    "reshoot": "На фото не распознан лист культуры — переснимите",
+    "consult": "Нет допустимого д.в. — нужна консультация агронома"
+  },
+  "status_labels": {
+    "confirmed": "диагноз подтверждён",
+    "probable": "диагноз вероятен",
+    "uncertain": "нейросеть не уверена",
+    "conflict": "конфликт с выбранной культурой",
+    "invalid": "на фото не лист культуры",
+    "healthy": "лист здоров"
+  },
+  "risk_labels": {
+    "high": "высокий",
+    "medium": "средний",
+    "low": "низкий"
+  },
+  "rules": [
+    {
+      "id": "R1",
+      "group": "Проверка диагноза",
+      "text": "ЕСЛИ нейросеть отнесла фото к классу «не лист» ТО фото непригодно, переснять",
+      "if": [{"fact": "nn_kind", "op": "==", "value": "invalid"}],
+      "then": [{"set": "status", "value": "invalid"}, {"set": "action", "value": "reshoot"}],
+      "cf": 1.0
+    },
+    {
+      "id": "R2",
+      "group": "Проверка диагноза",
+      "text": "ЕСЛИ диагноз ещё не принят И культура на фото не совпадает с выбранной ТО конфликт, нужна проверка",
+      "if": [
+        {"fact": "status", "op": "missing"},
+        {"fact": "nn_crop", "op": "!=", "ref": "crop"}
+      ],
+      "then": [
+        {"set": "status", "value": "conflict"},
+        {"set": "action", "value": "recheck"},
+        {"message": "Нейросеть видит культуру «{nn_crop_ru}», а выбрана «{crop_ru}»"}
+      ],
+      "cf": 1.0
+    },
+    {
+      "id": "R3",
+      "group": "Проверка диагноза",
+      "text": "ЕСЛИ диагноз ещё не принят И вероятность top-1 меньше 0,60 ТО нейросеть не уверена, нужна проверка",
+      "if": [
+        {"fact": "status", "op": "missing"},
+        {"fact": "nn_prob", "op": "<", "ref": "prob_low"}
+      ],
+      "then": [{"set": "status", "value": "uncertain"}, {"set": "action", "value": "recheck"}],
+      "cf": 1.0
+    },
+    {
+      "id": "R4",
+      "group": "Проверка диагноза",
+      "text": "ЕСЛИ диагноз ещё не принят И нейросеть видит здоровый лист ТО риск низкий, обработка не нужна",
+      "if": [
+        {"fact": "status", "op": "missing"},
+        {"fact": "nn_kind", "op": "==", "value": "healthy"}
+      ],
+      "then": [
+        {"set": "status", "value": "healthy"},
+        {"set": "risk", "value": "low"},
+        {"set": "action", "value": "none"}
+      ],
+      "cf": 0.9
+    },
+    {
+      "id": "R5",
+      "group": "Проверка диагноза",
+      "text": "ЕСЛИ диагноз ещё не принят И нейросеть видит болезнь с вероятностью не меньше 0,85 ТО диагноз подтверждён",
+      "if": [
+        {"fact": "status", "op": "missing"},
+        {"fact": "nn_kind", "op": "==", "value": "disease"},
+        {"fact": "nn_prob", "op": ">=", "ref": "prob_high"}
+      ],
+      "then": [{"set": "status", "value": "confirmed"}],
+      "cf": 1.0
+    },
+    {
+      "id": "R6",
+      "group": "Проверка диагноза",
+      "text": "ЕСЛИ диагноз ещё не принят И нейросеть видит болезнь с вероятностью меньше 0,85 ТО диагноз вероятен, сверить признаки",
+      "if": [
+        {"fact": "status", "op": "missing"},
+        {"fact": "nn_kind", "op": "==", "value": "disease"},
+        {"fact": "nn_prob", "op": "<", "ref": "prob_high"}
+      ],
+      "then": [
+        {"set": "status", "value": "probable"},
+        {"message": "Сверьте признаки: {symptoms}"}
+      ],
+      "cf": 0.8
+    },
+    {
+      "id": "R7",
+      "group": "Проверка диагноза",
+      "text": "ЕСЛИ разрыв между top-1 и top-2 меньше 0,15 ТО предупредить о близкой альтернативе",
+      "if": [{"fact": "nn_gap", "op": "<", "ref": "gap_min"}],
+      "then": [{"message": "Близкая альтернатива: {nn_second_ru} ({nn_second_prob})"}],
+      "cf": 1.0
+    },
+    {
+      "id": "R8",
+      "group": "Погода и риск",
+      "text": "ЕСЛИ диагноз принят И температура в диапазоне развития болезни И влажность не ниже порога ТО погода благоприятна для болезни",
+      "if": [
+        {"fact": "status", "op": "in", "value": ["confirmed", "probable"]},
+        {"fact": "temp", "op": ">=", "ref": "t_min"},
+        {"fact": "temp", "op": "<=", "ref": "t_max"},
+        {"fact": "humidity", "op": ">=", "ref": "rh_min"}
+      ],
+      "then": [{"set": "weather_ok", "value": true}],
+      "cf": 0.8
+    },
+    {
+      "id": "R9",
+      "group": "Погода и риск",
+      "text": "ЕСЛИ диагноз принят И температура в диапазоне развития болезни И были осадки за 3 суток ТО погода благоприятна для болезни",
+      "if": [
+        {"fact": "status", "op": "in", "value": ["confirmed", "probable"]},
+        {"fact": "temp", "op": ">=", "ref": "t_min"},
+        {"fact": "temp", "op": "<=", "ref": "t_max"},
+        {"fact": "rain_3d", "op": "==", "value": true}
+      ],
+      "then": [{"set": "weather_ok", "value": true}],
+      "cf": 0.6
+    },
+    {
+      "id": "R10",
+      "group": "Погода и риск",
+      "text": "ЕСЛИ диагноз принят И поражено не меньше верхнего ЭПВ ТО риск высокий",
+      "if": [
+        {"fact": "status", "op": "in", "value": ["confirmed", "probable"]},
+        {"fact": "pct", "op": ">=", "ref": "threshold_max"}
+      ],
+      "then": [{"set": "risk", "value": "high"}],
+      "cf": 0.9
+    },
+    {
+      "id": "R11",
+      "group": "Погода и риск",
+      "text": "ЕСЛИ диагноз принят И поражение между нижним и верхним ЭПВ И погода благоприятна ТО риск высокий",
+      "if": [
+        {"fact": "status", "op": "in", "value": ["confirmed", "probable"]},
+        {"fact": "pct", "op": ">=", "ref": "threshold_min"},
+        {"fact": "pct", "op": "<", "ref": "threshold_max"},
+        {"fact": "weather_ok", "op": "==", "value": true}
+      ],
+      "then": [{"set": "risk", "value": "high"}],
+      "cf": 0.7
+    },
+    {
+      "id": "R12",
+      "group": "Погода и риск",
+      "text": "ЕСЛИ диагноз принят И поражение между нижним и верхним ЭПВ И погода не благоприятна ТО риск средний",
+      "if": [
+        {"fact": "status", "op": "in", "value": ["confirmed", "probable"]},
+        {"fact": "pct", "op": ">=", "ref": "threshold_min"},
+        {"fact": "pct", "op": "<", "ref": "threshold_max"},
+        {"fact": "weather_ok", "op": "missing"}
+      ],
+      "then": [{"set": "risk", "value": "medium"}],
+      "cf": 0.7
+    },
+    {
+      "id": "R13",
+      "group": "Погода и риск",
+      "text": "ЕСЛИ диагноз принят И поражение ниже нижнего ЭПВ ТО риск низкий",
+      "if": [
+        {"fact": "status", "op": "in", "value": ["confirmed", "probable"]},
+        {"fact": "pct", "op": "<", "ref": "threshold_min"}
+      ],
+      "then": [{"set": "risk", "value": "low"}],
+      "cf": 0.8
+    },
+    {
+      "id": "R14",
+      "group": "Решение",
+      "text": "ЕСЛИ диагноз принят И риск высокий ТО провести обработку, подобрать д.в. болезни",
+      "if": [
+        {"fact": "status", "op": "in", "value": ["confirmed", "probable"]},
+        {"fact": "risk", "op": "==", "value": "high"}
+      ],
+      "then": [{"set": "action", "value": "treat"}, {"load_products": true}],
+      "cf": 0.9
+    },
+    {
+      "id": "R15",
+      "group": "Решение",
+      "text": "ЕСЛИ риск средний ТО повторный осмотр через 3 дня",
+      "if": [{"fact": "risk", "op": "==", "value": "medium"}],
+      "then": [{"set": "action", "value": "monitor_3d"}],
+      "cf": 0.8
+    },
+    {
+      "id": "R16",
+      "group": "Решение",
+      "text": "ЕСЛИ диагноз принят И риск низкий ТО плановый осмотр через 7 дней",
+      "if": [
+        {"fact": "status", "op": "in", "value": ["confirmed", "probable"]},
+        {"fact": "risk", "op": "==", "value": "low"}
+      ],
+      "then": [{"set": "action", "value": "monitor_7d"}],
+      "cf": 0.8
+    },
+    {
+      "id": "R17",
+      "group": "Ограничения",
+      "text": "ЕСЛИ решено обрабатывать ТО исключить д.в., срок ожидания которых больше, чем осталось до уборки",
+      "if": [{"fact": "action", "op": "==", "value": "treat"}],
+      "then": [{
+        "exclude_products": {
+          "field": "waiting_days", "op": ">", "ref": "days_to_harvest",
+          "reason": "срок ожидания {waiting_days} дн. больше, чем осталось до уборки ({days_to_harvest} дн.)"
+        }
+      }],
+      "cf": 1.0
+    },
+    {
+      "id": "R18",
+      "group": "Ограничения",
+      "text": "ЕСЛИ решено обрабатывать И прошлая обработка была системным д.в. ТО исключить д.в. той же группы FRAC (ротация против резистентности)",
+      "if": [
+        {"fact": "action", "op": "==", "value": "treat"},
+        {"fact": "last_frac", "op": "not_in", "value": ["нет", "M01", "M03"]}
+      ],
+      "then": [{
+        "exclude_products": {
+          "field": "frac", "op": "==", "ref": "last_frac",
+          "reason": "та же группа FRAC {frac}, что в прошлой обработке, — ротация против резистентности"
+        }
+      }],
+      "cf": 0.9
+    },
+    {
+      "id": "R19",
+      "group": "Ограничения",
+      "text": "ЕСЛИ решено обрабатывать И не осталось допустимых д.в. ТО нужна консультация агронома",
+      "if": [
+        {"fact": "action", "op": "==", "value": "treat"},
+        {"fact": "products_count", "op": "==", "value": 0}
+      ],
+      "then": [{"set": "action", "value": "consult"}],
+      "cf": 1.0
+    },
+    {
+      "id": "R20",
+      "group": "Ограничения",
+      "text": "ЕСЛИ решено обрабатывать И (ветер больше 5 м/с ИЛИ дождь в ближайшие 6 ч) ТО отложить обработку до погодного окна",
+      "if": [
+        {"fact": "action", "op": "==", "value": "treat"},
+        {"any": [
+          {"fact": "wind", "op": ">", "value": 5},
+          {"fact": "rain_6h", "op": "==", "value": true}
+        ]}
+      ],
+      "then": [
+        {"set": "action", "value": "treat_postponed"},
+        {"message": "Опрыскивать при ветре до 5 м/с и без дождя 6 ч (порог условный)"}
+      ],
+      "cf": 0.9
+    }
+  ]
+}

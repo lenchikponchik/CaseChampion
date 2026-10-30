@@ -1,0 +1,10 @@
+[
+  {"id": "tebuconazole", "name_ru": "Тебуконазол", "chem_class": "триазолы", "frac": "3", "mode": "системное", "waiting_days": 30, "rate": "по инструкции препарата", "demo": true},
+  {"id": "propiconazole", "name_ru": "Пропиконазол", "chem_class": "триазолы", "frac": "3", "mode": "системное", "waiting_days": 30, "rate": "по инструкции препарата", "demo": true},
+  {"id": "difenoconazole", "name_ru": "Дифеноконазол", "chem_class": "триазолы", "frac": "3", "mode": "системное", "waiting_days": 20, "rate": "по инструкции препарата", "demo": true},
+  {"id": "azoxystrobin", "name_ru": "Азоксистробин", "chem_class": "стробилурины", "frac": "11", "mode": "системное", "waiting_days": 20, "rate": "по инструкции препарата", "demo": true},
+  {"id": "mancozeb", "name_ru": "Манкоцеб", "chem_class": "дитиокарбаматы", "frac": "M03", "mode": "контактное", "waiting_days": 20, "rate": "1,2–1,6 кг/га (МСХ РТ)", "demo": true},
+  {"id": "copper_oxychloride", "name_ru": "Оксихлорид меди", "chem_class": "соединения меди", "frac": "M01", "mode": "контактное", "waiting_days": 20, "rate": "2,4–3,2 кг/га (МСХ РТ)", "demo": true},
+  {"id": "metalaxyl_m", "name_ru": "Металаксил-М (в смеси с манкоцебом)", "chem_class": "фениламиды", "frac": "4", "mode": "системное", "waiting_days": 14, "rate": "2,5 кг/га смесевого препарата (МСХ РТ)", "demo": true},
+  {"id": "cymoxanil", "name_ru": "Цимоксанил (в смесевых препаратах)", "chem_class": "цианоацетамид-оксимы", "frac": "27", "mode": "локально-системное", "waiting_days": 7, "rate": "по инструкции препарата", "demo": true}
+]
